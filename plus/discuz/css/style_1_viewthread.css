@@ -1,0 +1,34 @@
+@charset "gb2312";
+.zoominner {
+    PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.zoominner P {
+    PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; COLOR: #999; PADDING-TOP: 8px
+}
+.zoominner P A {
+    BACKGROUND: url(../pic/imgzoom_tb.gif) no-repeat 0px 0px; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden; WIDTH: 17px; LINE-HEIGHT: 100px; HEIGHT: 17px
+}
+.zoominner P A:hover {
+    BACKGROUND-POSITION: 0px -39px
+}
+.zoominner P A.imgadjust {
+    BACKGROUND-POSITION: -40px 0px
+}
+.zoominner P A.imgadjust:hover {
+    BACKGROUND-POSITION: -40px -39px
+}
+.zoominner P A.imgclose {
+    BACKGROUND-POSITION: -80px 0px
+}
+.zoominner P A.imgclose:hover {
+    BACKGROUND-POSITION: -80px -39px
+}
+.zoominner #zoomimgbox {
+    TEXT-ALIGN: center
+}
+P {
+    FONT: 12px/1.6em Verdana,Helvetica,Arial,sans-serif; COLOR: #444;PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.right {
+    FLOAT: right
+}

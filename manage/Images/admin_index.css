@@ -1,0 +1,29 @@
+body{ margin:0px 0px 0px 0px; float:left; font-size:12px;OVERFLOW-X: hidden; OVERFLOW: hidden; }
+td { font-size:12px; }
+
+.top_table { width:100%; background:url(top_bg.gif); height:41px; }
+.top_table_leftbg { width:100%; background-image:url(top_table_leftbg.gif); background-repeat: repeat-y ; height:41px; }
+
+.system_logo { width:15%; float:left; text-align:left; }
+.system_lano { width:85%; float:left; padding-top: 18px; background-image:url(topbg.jpg); background-repeat:repeat-x; height: 41px}
+
+a:link { color:#ffffff;text-decoration:none}
+a:hover {color:#ffffff;}
+a:visited {color:#f0f0f0;text-decoration:none}
+
+.left_iframe{HEIGHT: 100%; VISIBILITY: inherit;WIDTH: 181px; background:transparent;}
+.main_iframe {HEIGHT: 92%; VISIBILITY: inherit; WIDTH:100%; Z-INDEX: 1}
+
+.main_left {table-layout:auto; background:url(left_bg.gif)}
+.navPoint { CURSOR: hand; }
+
+#menuTabs div {margin:0px;padding:0px;}
+#menuTabs {position:absolute;left:260px;top:13px;width:auto;line-height:normal;margin:1px 0 0 0px;}
+#menuTabs ul {margin:0;padding:0px 10px 0 0px ;list-style:none;}
+#menuTabs li {display:inline;margin:0;padding:0;}
+#menuTabs a {float:left;background:url(tableft.gif) no-repeat left top;margin:0px;padding:0 0 0 4px;text-decoration:none;}
+#menuTabs a span {float:left;display:block;background:url(tabright.gif) no-repeat right top;padding:8px 8px 6px 6px;color:#e9f4ff;}
+#menuTabs a span {float:none;}
+#menuTabs a:hover span {color:#fff;}
+#menuTabs a:hover {background-position:0% -46px;}
+#menuTabs a:hover span {background-position:100% -46px;color:#333;}

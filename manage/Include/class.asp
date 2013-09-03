@@ -1,0 +1,36 @@
+lar:Cainan
+cainan主推产品
+lar:David Miller
+羽绒服
+衬衫
+西服
+风衣
+lar:集市
+羽绒服
+棉服
+呢子大衣
+植绒风衣
+植绒卫衣
+外套
+衬衣
+毛衣
+lar:裤子
+其他品牌
+西裤
+牛仔裤
+皮裤
+休闲裤
+lar:断码特价
+断码特价
+lar:T.恤
+David miller
+圆领
+POLO衫
+V领
+立领
+连帽
+lar:时尚配饰
+袜子
+领带
+lar:毛衣
+毛衣

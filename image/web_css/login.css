@@ -1,0 +1,96 @@
+
+#header_login {width:950px;height:25px;margin:0 auto;text-align:right;background-image:url(../login/top/user_top_bg.jpg);}
+#header_login li{padding-top:4px;padding-right:4px;list-style:none;}
+#header_login li a{color:#000000;font-size:12px;text-decoration:none;}
+#header_login li a:hover{text-decoration: underline;}
+#header_login_logo {width:950px;height:60px;margin:0 auto;}
+#header_login_logo_left {width:200px; float:left;margin-top:4PX; margin-left:4px;}
+#header_login_logo_mid {width:620px; float:left; margin-top:20PX; margin-left:14px;background-color:#E6E6E6; padding:3px 3px 3px;border:solid 1px #AFAFAF;}
+#header_login_logo_right {width:100px; float:right;margin-top:20PX;}
+.input_search{width: 400px;font-family: "宋体";font-weight: bold;font-size: 14px;}
+.select_search{width: 150px;}
+#span_search{margin-top:4011PX;}
+
+
+/*共用的DIV开始*/
+#div_Public{width:970px;margin:0 auto;margin-top:4px;}
+
+/*共用的DIV结束*/
+
+#mid_login{width:970px; margin:0 auto; border:1px solid #CCCCCC; }
+
+/*导航CSS设置开始*/
+#banane_login{width:950px; height:40px; margin:0 auto; background-image:url(../login/top/banane.jpg);} 
+#banane_login_top{width:600px; float:left; margin:2px 0 0 2px; }
+#banane_login_top ul li {float:left; width:44px;}
+#banane_login_top ul a {display:block;line-height:30px;padding:5px 0px 0px 6px;color:#FFFFFF;font-size:14px;text-decoration:none;font-weight: bold;}
+#banane_login_top li a#current {display:block;line-height:30px;padding:5px 0px 0px 6px;background:#FFFFFF;color:#000000;font-size:14px;text-decoration:none;font-weight: bold;}
+#banane_login_top ul a:hover {background:#FFFFFF;color:#000000;}
+#banane_login_right{width:346px; float:right;}
+#banane_login_right ul li {float:right; margin-right:2px;}
+#banane_login_right ul a {display:block;line-height:30px;padding:6px 0px 0px 6px;color:#FFFFFF;font-size:13px;text-decoration:none;font-weight: bold;}
+#banane_login_right ul a:hover  {color:#FF00FF}
+#banane_login_right ul span {padding-top:333px;font-size:13px;color:#996600;font-weight: bold;}
+/*导航CSS设置结束*/
+
+/*导航下面CSS设置开始*/
+#banane_bottom{width:928px;border-left:1px solid #CCCCCC;border-right:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC; padding:10px 10px 10px 10px;}
+#banane_bottom a{ FONT-SIZE: 13px;COLOR: #000000;  TEXT-DECORATION: none ;}
+#banane_bottom a:hover{FONT-SIZE: 13px;COLOR:  #990000;text-decoration: underline;}
+
+#product_left {width:760px;; float:left;margin:5px 10px 0 0; background-image:url(../product/product_3.jpg);}
+#product_left h2{ height:40px; background-image:url(../product/product_2.jpg); font-size:12px;padding:5px 0 0 10px; color:#C04411;font-weight:normal;}
+#product_left h2 span { float:right; font-weight:normal; color:#FF0000;padding:0 40px 0 0;}
+#product_left h2 span a {color:#FF0000;TEXT-DECORATION: none ;}
+#product_left h3{ height:10px; background-image:url(../product/product_4.jpg);}
+#product_right{width:180px; float:right;margin:5px 0 0 0;}
+/*导航下面CSS设置结束*/
+
+
+
+#Contact_top{background:url(../content.jpg) 0  no-repeat; padding-left:10px; height:20px; border-bottom:1px solid #CCCCCC;margin-bottom:4px;}
+#Contact_top ul { padding-left:10px; margin:0; list-style:none; }
+#Contact_top ul li{ padding-top:5px;}
+#Contact_top_left{width:200px;float:left;}
+#Contact_top_right{width:765px;float:right;}
+#sidepanel { border:1px solid #CCCCCC; margin-bottom:8px;}
+#sidepanel h2 { font-size:13px; background:#F5F5F5; border-bottom:1px solid #CCCCCC;height:25px; line-height:24px; text-indent:10px; color:#OOOOOO;}
+#sidepanel ul { padding:6px 6px; overflow:auto; zoom:1; line-height:22px; }
+#sidepanel ul li { width:190; height:20px;}
+#sidepanel ul li a{FONT-SIZE: 12px;COLOR: #000000; TEXT-DECORATION: none }
+#sidepanel ul li a:hover{FONT-SIZE: 12px;COLOR:  #FF0000;text-decoration:}
+
+/*底部CSS设置开始*/
+#foot_login {width:950px;margin:0 auto; text-align:center;padding:6px 0px 0px 0px;line-height:20px;}
+#foot_login a{color:#000000;font-size:13px;text-decoration:none;}
+#foot_login a:hover{text-decoration: underline;}
+
+#foot_link {width:942px; height:25px;margin:0 auto;text-align:left;padding:10px 0px 0px 6px; border:solid 1px #CCCCCC;background-color:#EFEFEF;}
+#foot_link span{color:#2F8CBE;FONT-SIZE: 13px;font-weight: bold;}
+#foot_link a{FONT-SIZE: 13px;COLOR: #000000; TEXT-DECORATION: none ;}
+#foot_link a:hover{FONT-SIZE: 13px;COLOR:  #FF0000;text-decoration:}
+/*底部CSS设置结束*/
+
+
+
+
+.Brown {COLOR: #674425;TEXT-DECORATION: none;font-weight: bold;}
+td,th{font-size:12px;line-height:18px;}
+a{ font-size:12px; color:#333; text-decoration:none;}
+a:hover{ color:#f00;}
+.b-left{ border-left:solid 1px #AFAFAF;}
+.b-top{ border-top:solid 1px #AFAFAF;}
+.b-right{ border-right:solid 1px #AFAFAF;}
+.b-bottom{ border-bottom:solid 1px #AFAFAF;}
+.b-background{background-color: #AFAFAF;}
+
+a.text:link{ FONT-SIZE: 14px;COLOR: #000000;  TEXT-DECORATION: none ;}
+a.text:visited{FONT-SIZE: 14px;COLOR:  #000000;  TEXT-DECORATION: none ;}
+a.text:active{ FONT-SIZE: 14px;COLOR:  #000000;   text-decoration: none;}
+a.text:hover{
+	FONT-SIZE: 14px;
+	COLOR:  #FF0000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.White {color: #FFFFFF;}
